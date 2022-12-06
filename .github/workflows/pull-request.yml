@@ -12,23 +12,23 @@ jobs:
         
       - name: Check Readme Exists
         id: check_readme_exists
-        uses: andstor/file-existence-action@v1
+        uses: andstor/file-existence-action@v2
         with:
           files: "README.md"
-          allow_failure: true
+          fail: true
       
       - name: Check Readme Modified
         id: check_readme_modified
-        uses: trilom/file-changes-action@v1.2.3
+        uses: trilom/file-changes-action@v1.2.4
         with:
           fileOutput: ''
       
       - name: Check Changelog Exists
         id: check_changelog_exists
-        uses: andstor/file-existence-action@v1
+        uses: andstor/file-existence-action@v2
         with:
           files: "CHANGELOG.md"
-          allow_failure: false
+          fail: false
       
       - name: Check Changelog Modified
         id: check_changelog_modified
@@ -40,9 +40,9 @@ jobs:
         if: (steps.check_readme_exists.outputs.files_exists == 'true' && contains(steps.check_readme_modified.outputs.files_modified, 'README.md'))
           || (steps.check_changelog_exists.outputs.files_exists == 'true' && contains(steps.check_changelog_modified.outputs.files_modified, 'CHANGELOG.md'))
         id: create_pull_request
-        uses: vsoch/pull-request-action@1.0.12
+        uses: vsoch/pull-request-action@1.0.23
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_PREFIX: "release/"
-          PULL_REQUEST_BRANCH: "master"
-          PULL_REQUEST_REVIEWERS: "th-anguyen th-skhozin thmzacharias"
+          PULL_REQUEST_BRANCH: "main"
+          PULL_REQUEST_REVIEWERS: "skhozenMedallia"

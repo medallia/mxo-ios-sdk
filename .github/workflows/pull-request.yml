@@ -8,37 +8,39 @@ jobs:
     name: Release Pull Request
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        
+      - uses: actions/checkout@v3  
+        with:
+          fetch-depth: 0
+      - name: Get Main SHA 
+        id: main_sha
+        run: |
+          git fetch origin main:refs/remotes/origin/main
+          MAIN_SHA=$(git rev-parse origin/main)
+          echo "main_sha=$MAIN_SHA" >> $GITHUB_OUTPUT
+          
       - name: Check Readme Exists
         id: check_readme_exists
         uses: andstor/file-existence-action@v2
         with:
           files: "README.md"
           fail: true
-      
-      - name: Check Readme Modified
-        id: check_readme_modified
-        uses: trilom/file-changes-action@v1.2.4
-        with:
-          fileOutput: ''
-      
+
       - name: Check Changelog Exists
         id: check_changelog_exists
         uses: andstor/file-existence-action@v2
         with:
           files: "CHANGELOG.md"
           fail: false
-      
-      - name: Check Changelog Modified
-        id: check_changelog_modified
-        uses: trilom/file-changes-action@v1.2.4
+
+      - name: Get Changed Files
+        id: changed-files
+        uses: tj-actions/changed-files@v34
         with:
-          fileOutput: ''
+          base_sha: ${{ steps.main_sha.outputs.main_sha }}
        
       - name: Create Pull Request
-        if: (steps.check_readme_exists.outputs.files_exists == 'true' && contains(steps.check_readme_modified.outputs.files_modified, 'README.md'))
-          || (steps.check_changelog_exists.outputs.files_exists == 'true' && contains(steps.check_changelog_modified.outputs.files_modified, 'CHANGELOG.md'))
+        if: (steps.check_readme_exists.outputs.files_exists == 'true' && contains(steps.changed-files.outputs.all_changed_files, 'README.md'))
+          || (steps.check_changelog_exists.outputs.files_exists == 'true' && contains(steps.changed-files.outputs.all_changed_files, 'CHANGELOG.md'))
         id: create_pull_request
         uses: vsoch/pull-request-action@1.0.23
         env:

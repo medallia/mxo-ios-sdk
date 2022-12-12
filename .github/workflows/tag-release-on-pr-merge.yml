@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Get Release Branch Name
         id: get_release_branch_name
-        run: echo "::set-output name=branch_name::${{ github.head_ref }}"
+        run: echo "branch_name=${{ github.head_ref }}" >> $GITHUB_OUTPUT
 
       - name: Echo Release Branch Name
         id: echo_release_branch_name
@@ -19,8 +19,8 @@ jobs:
       
       - name: Get Merge sha
         id: get_merge_sha
-        run: echo "::set-output name=merge_sha::${{ github.sha }}"
-      
+        run: echo "merge_sha=${{ github.sha }}" >> $GITHUB_OUTPUT
+        
       - name: Echo Merge sha
         id: echo_merge_sha
         run: echo '${{ steps.get_merge_sha.outputs.merge_sha }}' 
@@ -31,7 +31,7 @@ jobs:
         run: |
           BRANCH=${{ steps.get_release_branch_name.outputs.branch_name }}
           TAG="$(sed 's/release\///g' <<< $BRANCH)"
-          echo ::set-output name=tag::"$TAG"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
         
       - name: Echo Tag Name
         id: echo_tag_name
@@ -41,13 +41,12 @@ jobs:
       
       - name: Get Release Notes
         id: get_release_notes
-#         https://github.community/t/set-output-truncates-multiline-strings/16852
+        # Get changelog, then filter version header, MOB ticket #, and pull request links.
         run: |
-          NOTES="$(sed -n '/^\*/p;/^$/q' CHANGELOG.md)"
-          NOTES="${NOTES//'%'/'%25'}"
-          NOTES="${NOTES//$'\n'/'%0A'}"
-          NOTES="${NOTES//$'\r'/'%0D'}"
-          echo ::set-output name=notes::"$NOTES"
+          NOTES="$(sed -e "/^## \\[${{ steps.create_tag_variable.outputs.tag }}\\]/,/^## /! d" -e "/^## .*/d" -e 's/(\[#.*].*//' -e 's/\*\*.*:\*\*//' CHANGELOG.md)"
+          echo "notes<<EOF" >> $GITHUB_OUTPUT
+          echo "$NOTES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
       
       - name: Echo Release Notes
         id: echo_release_notes
@@ -63,12 +62,12 @@ jobs:
                
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1
+        uses: softprops/action-gh-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
           tag_name: ${{ steps.create_tag_variable.outputs.tag }}
-          release_name: ${{ steps.create_tag_variable.outputs.tag }}
+          name: ${{ steps.create_tag_variable.outputs.tag }}
           body: ${{ steps.get_release_notes.outputs.notes }}
           draft: false
           prerelease: false
@@ -77,11 +76,11 @@ jobs:
     runs-on: macOS-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     
     - name: Install Cocoapods
       run: gem install cocoapods
     
-    - uses: michaelhenry/deploy-to-cocoapods-github-action@1.0.9
+    - uses: michaelhenry/deploy-to-cocoapods-github-action@1.0.10
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}

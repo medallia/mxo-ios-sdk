@@ -11,11 +11,11 @@ let package = Package(
     products: [
         .library(
             name: "medallia-mxo-ios-sdk",
-            targets: ["medallia-mxo-ios-sdk"]),
+            targets: ["MedalliaMXO"]),
     ],
     targets: [
         .binaryTarget(
-            name: "medallia-mxo-ios-sdk",
+            name: "MedalliaMXO",
             path: "MedalliaMXO.embeddedframework/MedalliaMXO.xcframework"
         )
     ]

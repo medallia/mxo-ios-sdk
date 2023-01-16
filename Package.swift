@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "MedalliaMXO",
+    name: "medallia-mxo-ios-sdk",
     platforms: [
             .iOS(.v11)
         ],
     products: [
         .library(
-            name: "MedalliaMXO",
+            name: "medallia-mxo-ios-sdk",
             targets: ["MedalliaMXO"]),
     ],
     targets: [

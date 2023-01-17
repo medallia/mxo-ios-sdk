@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0-pre-alpha.8](https://github.medallia.com/thunderhead/one-mobile-ios/compare/1.0.0-pre-alpha.7...1.0.0-pre-alpha.8) (2023-01-17)
+
+
+### Miscellaneous Chores
+
+* **MOB-2375:** release 1.0.0-pre-alpha.8 ([#79](https://github.medallia.com/thunderhead/one-mobile-ios/issues/79)) ([867efaa](https://github.medallia.com/thunderhead/one-mobile-ios/commit/867efaa8c09f5754025c8615ddba74328ce86499))
+
 ## [1.0.0-pre-alpha.7](https://github.medallia.com/thunderhead/one-mobile-ios/compare/1.0.0-pre-alpha.6...1.0.0-pre-alpha.7) (2023-01-12)
 
 

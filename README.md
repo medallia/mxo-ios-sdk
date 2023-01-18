@@ -1,6 +1,6 @@
 ![Medallia Experience Orchestration SDK](Distribution%20Supporting%20Files/images/MedalliaMXO_Logo.png)
 
-## Table of Contents 
+## Table of Contents
 
 - [Prerequisites](#prerequisites)
 - [Step 1: Add the Medallia Experience Orchestration SDK to your app](#step-1-add-the-medallia-experience-orchestration-sdk-to-your-app)

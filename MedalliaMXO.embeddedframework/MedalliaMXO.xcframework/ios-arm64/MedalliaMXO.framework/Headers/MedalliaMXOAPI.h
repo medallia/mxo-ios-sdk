@@ -67,10 +67,10 @@ typedef NS_OPTIONS(NSUInteger, MXOLogComponent) {
    @field CityCountryDetection Optin to city/country level tracking.
  */
 typedef NS_OPTIONS(NSUInteger, MXOOptInOptions) {
-    AllTracking NS_SWIFT_NAME(allTracking)                   = 1,
-    InteractionTracking NS_SWIFT_NAME(Interactions)          = 1 << 1,
-    KeychainTidStorage NS_SWIFT_NAME(keychainTidStorage)     = 1 << 2,
-    CityCountryDetection NS_SWIFT_NAME(cityCountryDetection) = 1 << 3,
+    AllTracking NS_SWIFT_NAME(allTracking)                          = 1,
+    InteractionTracking NS_SWIFT_NAME(interactionTracking)          = 1 << 1,
+    KeychainTidStorage NS_SWIFT_NAME(keychainTidStorage)            = 1 << 2,
+    CityCountryDetection NS_SWIFT_NAME(cityCountryDetection)        = 1 << 3,
 };
 
 @protocol MXOAutomaticInteractionSubscription;

@@ -11,6 +11,3 @@ Having troubles with the Medallia Experience Orchestration SDK for iOS? Visit ou
 
 ## Questions or need help
 For Medallia Experience Orchestration questions, please submit a support ticket [here](https://help.medallia.com).
-
-## MXO SDK License Agreement
-To see the Medallia Experience Orchestration SDK license agreement, please see our [online documentation](https://docs.medallia.com/en/?resourceId=mxo-sdk-license).

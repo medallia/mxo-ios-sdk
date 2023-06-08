@@ -1,3 +1,6 @@
+#### Version 1.0.1
+* [BUGFIX] Fixed an Umbrella Header warning for MedalliaMXOConfiguration.h.
+
 #### Version 1.0.0
 * [BREAKING] Added support for using the MXO SDK with Xcode 14.2. The MXO SDK requires Xcode 14+ (iOS 16).
 * [BREAKING] Updated minimum deployment target to iOS 11.0.

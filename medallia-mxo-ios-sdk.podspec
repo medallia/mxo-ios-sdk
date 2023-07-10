@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name                = "medallia-mxo-ios-sdk"
-  s.version             = "1.0.1"
+  s.version             = "1.1.0"
   s.summary             = "The MedalliaMXO SDK for iOS."
   s.authors             = { "Medallia" => "cocoapods-mxo@medallia.com" }
   s.homepage            = "https://github.com/medallia/mxo-ios-sdk"

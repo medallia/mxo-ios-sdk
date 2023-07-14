@@ -1,3 +1,6 @@
+#### Version 1.1.1
+* [BUGFIX] Fixed an issue parsing the response from an Interaction.
+
 #### Version 1.1.0
 * [UPDATE] Telemetry updates.
 

@@ -1,3 +1,7 @@
+#### Version 1.1.2
+* [BUGFIX] Fixed an issue with `directives` not being returned in `MXOOptimizationPoint`.
+* [BUGFIX] Fixed an issue when a scheme was appended to a Touchpoint URI when not set by a developer.
+
 #### Version 1.1.1
 * [BUGFIX] Fixed an issue parsing the response from an Interaction.
 

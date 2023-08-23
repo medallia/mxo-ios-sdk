@@ -28,6 +28,8 @@ typedef NS_ENUM(NSInteger, MXOMimeType) {
 
 @property (nonatomic, strong, nullable, readonly) NSArray<MXOAssetResponse *> *responses;
 
+@property (nonatomic, strong, nullable, readonly) NSString *contentUrl;
+
 @end
 
 NS_ASSUME_NONNULL_END

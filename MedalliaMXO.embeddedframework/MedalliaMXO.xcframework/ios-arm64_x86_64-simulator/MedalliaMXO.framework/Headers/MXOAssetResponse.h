@@ -16,6 +16,13 @@ typedef NS_ENUM(NSInteger, MXOAssetResponseSentiment) {
     MXOAssetResponseSentimentUnknown NS_SWIFT_NAME(unknown)
 };
 
+typedef NS_ENUM(NSInteger, MXOAssetResponseTarget) {
+    MXOAssetResponseTargetInApp NS_SWIFT_NAME(in_app),
+    MXOAssetResponseTargetExternal NS_SWIFT_NAME(external),
+    MXOAssetResponseTargetContext NS_SWIFT_NAME(context),
+    MXOAssetResponseTargetUnknown NS_SWIFT_NAME(unknown)
+};
+
 @class MXOResponseCode;
 
 @interface MXOAssetResponse : NSObject
@@ -23,6 +30,14 @@ typedef NS_ENUM(NSInteger, MXOAssetResponseSentiment) {
 @property (nonatomic, strong, nullable, readonly) MXOResponseCode *code;
 
 @property (nonatomic, assign, readonly) MXOAssetResponseSentiment sentiment;
+
+@property (nonatomic, strong, nullable, readonly) NSString *label;
+
+@property (nonatomic, strong, nullable, readonly) NSString *imageUrl;
+
+@property (nonatomic, strong, nullable, readonly) NSString *targetUrl;
+
+@property (nonatomic, assign, readonly) MXOAssetResponseTarget target;
 
 @end
 

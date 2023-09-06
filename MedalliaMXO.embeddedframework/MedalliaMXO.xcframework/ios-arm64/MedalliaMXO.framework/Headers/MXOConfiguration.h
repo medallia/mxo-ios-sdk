@@ -43,17 +43,17 @@ typedef void (^MXOConfigurationBuilderBlock)(MXOConfigurationBuilder *builder);
 /*!
    @brief The MXO space shared secret key.
  */
-@property (nonatomic, copy, readonly, nullable) NSString *sharedSecret;
+@property (nonatomic, copy, readonly, nullable) NSString *sharedSecret DEPRECATED_MSG_ATTRIBUTE("This will be removed in the next major release.");
 
 /*!
    @brief The MXO space API key.
  */
-@property (nonatomic, copy, readonly, nullable) NSString *apiKey;
+@property (nonatomic, copy, readonly, nullable) NSString *apiKey DEPRECATED_MSG_ATTRIBUTE("This will be removed in the next major release.");
 
 /*!
    @brief A User ID which has access to the current touchpoint. It is recommended to use an api user: api@<your-tenant.com>.
  */
-@property (nonatomic, copy, readonly, nullable) NSString *userId;
+@property (nonatomic, copy, readonly, nullable) NSString *userId DEPRECATED_MSG_ATTRIBUTE("This will be removed in the next major release.");
 
 /*!
    @brief The MXO server instance your space is hosted on.
@@ -110,17 +110,17 @@ typedef void (^MXOConfigurationBuilderBlock)(MXOConfigurationBuilder *builder);
 /*!
    @brief The MXO space shared secret key.
  */
-@property (nonatomic, copy, nullable) NSString *sharedSecret;
+@property (nonatomic, copy, nullable) NSString *sharedSecret DEPRECATED_MSG_ATTRIBUTE("This will be removed in the next major release.");
 
 /*!
    @brief The MXO space API key.
  */
-@property (nonatomic, copy, nullable) NSString *apiKey;
+@property (nonatomic, copy, nullable) NSString *apiKey DEPRECATED_MSG_ATTRIBUTE("This will be removed in the next major release.");
 
 /*!
    @brief A User ID which has access to the current touchpoint. It is recommended to use an api user: api@<your-tenant.com>.
  */
-@property (nonatomic, copy, nullable) NSString *userId;
+@property (nonatomic, copy, nullable) NSString *userId DEPRECATED_MSG_ATTRIBUTE("This will be removed in the next major release.");
 
 /*!
    @brief The MXO server instance your space is hosted on.

@@ -1,3 +1,6 @@
+#### Version 1.3.0-pre-alpha.0
+* [UPDATE] 1.3.0-pre-alpha.0
+
 #### Version 1.2.0
 * [UPDATE] Removed `OAuth1` from runtime requests. For further details on this see our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-migration-v1.2.0).
 * [BUGFIX] Fixed an issue with a Navigation Bar label's path mismatch across iOS versions.

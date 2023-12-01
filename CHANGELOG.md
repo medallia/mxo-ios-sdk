@@ -1,3 +1,6 @@
+#### Version 1.3.0-pre-alpha.4
+* [UPDATE] CI updates
+
 #### Version 1.3.0-pre-alpha.3
 * [UPDATE] Updated the SDK to use the latest Designtime APIs for creating Interactions.
 * [UPDATE] Updated Admin User Interface.

@@ -1,3 +1,8 @@
+#### Version 2.0.0-pre-alpha.0
+* [UPDATE] Updated Admin User Interface.
+* [BUGFIX] Fixed a request conflict that was occurring due to an invalid Interaction path being generated from local files.
+* [BUGFIX] Fixed an issue with background Interaction window tracking.
+
 #### Version 1.3.0-pre-alpha.3
 * [UPDATE] Updated the SDK to use the latest Designtime APIs for creating Interactions.
 * [UPDATE] Updated Admin User Interface.

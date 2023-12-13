@@ -1,3 +1,6 @@
+#### Version 2.0.0-alpha.0
+* [UPDATE] Hybrid Logging Updates.
+
 #### Version 2.0.0-pre-alpha.0
 * [UPDATE] Updated Admin User Interface.
 * [BUGFIX] Fixed a request conflict that was occurring due to an invalid Interaction path being generated from local files.

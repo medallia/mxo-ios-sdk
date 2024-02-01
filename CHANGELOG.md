@@ -1,3 +1,16 @@
+#### Version 2.0.0
+* [BREAKING] Added support for using the MXO SDK with Xcode 15.2. The MXO SDK requires Xcode 15+ (iOS 17).
+* [BREAKING] Updated minimum deployment target to iOS 12.0.
+* [BREAKING] Removed `OAuth1` from runtime requests. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-migration-v2.0.0) for detailed information.
+* [BREAKING] Removed the `allTracking` opt-in option from the opt-out configuration. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-migration-v2.0.0) for detailed information.
+* [BREAKING] Fixed an issue with Interaction path differences between iOS versions for SwiftUI apps. Refer to our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-migration-v2.0.0) for detailed information.
+* [NEW] Added Privacy Manifests based on [Apple requirements](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files).
+* [UPDATE] Updated `one-tid` to `tid` query param appended to an outgoing URL.
+* [UPDATE] Updated Admin User Interface.
+* [UPDATE] Updated opt-out configuration logging messages.
+* [BUGFIX] Fixed an issue where `WebView` was not properly recognized as an Interaction.
+* [BUGFIX] Fixed an issue where updating Customer Attributes, Activity Types, and Propositions in an MXO Space did not reflect those changes in the SDK.
+
 #### Version 2.0.0-alpha.0
 * [UPDATE] Hybrid Logging Updates.
 

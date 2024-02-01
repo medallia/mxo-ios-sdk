@@ -58,19 +58,28 @@ typedef NS_OPTIONS(NSUInteger, MXOLogComponent) {
     MXOLogComponentNetworking NS_SWIFT_NAME(networking)     = 1 << 3
 };
 
-/*!
-   @typedef MXOOptInOptions
-   @brief This is an enum which specifies the MXOOptInOptions options.
-   @field AllTracking Optin to all tracking.
-   @field InteractionTracking Optin to all interaction tracking.
-   @field KeychainTidStorage Optin to keychain Tid storage.
-   @field CityCountryDetection Optin to city/country level tracking.
+/**
+ Enum of options available for precise control over tracked customer information.  Use these options to specify your preferences for customer information tracking.
  */
 typedef NS_OPTIONS(NSUInteger, MXOOptInOptions) {
-    AllTracking NS_SWIFT_NAME(allTracking)                          = 1,
-    InteractionTracking NS_SWIFT_NAME(interactionTracking)          = 1 << 1,
-    KeychainTidStorage NS_SWIFT_NAME(keychainTidStorage)            = 1 << 2,
-    CityCountryDetection NS_SWIFT_NAME(cityCountryDetection)        = 1 << 3,
+    /**
+     * Indicates whether Interaction Tracking is enabled.
+     *
+     * Use this option to track customer interactions.
+     */
+    InteractionTracking NS_SWIFT_NAME(interactionTracking)      = 1 << 0,
+    /**
+     * Indicates whether Keychain TID (Tracking Identifier) Storage is enabled.
+     *
+     * Use this option to securely store the customer's TID in the keychain.
+     */
+    KeychainTidStorage NS_SWIFT_NAME(keychainTidStorage)        = 1 << 1,
+    /**
+     * Indicates whether City and Country Detection is enabled.
+     *
+     * Use this option to track the customer's city and country using IPDetect, not the actual device location.
+     */
+    CityCountryDetection NS_SWIFT_NAME(cityCountryDetection)    = 1 << 2,
 };
 
 @protocol MXOAutomaticInteractionSubscription;
@@ -112,9 +121,9 @@ typedef NS_OPTIONS(NSUInteger, MXOOptInOptions) {
 
 
 /*!
-   @brief Appends the MXO tid as parameter to a given URL.
+   @brief Appends the MXO TID as parameter to a given URL.
    @param url A NSURL object.
-   @return A NSURL object with the MXO tid.
+   @return A NSURL object with the MXO TID.
  */
 + (nullable NSURL *)generateIdentityTransferUrl:(NSURL *)url
                                           error:(NSError *__autoreleasing _Nullable * _Nullable)error;
@@ -191,17 +200,43 @@ typedef NS_OPTIONS(NSUInteger, MXOOptInOptions) {
    @brief Sets the framework's log level and component.
    @discussion Set specific logging configuration to see the framework outputs in the debug panel. 
  */
-
 @property (class, nonatomic, nullable) MXOLoggingConfiguration *loggingConfiguration;
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Opt
 ///////////////////////////////////////////////////////////////////////////////////////////
-///
-/*!
-   @brief Configure MXO SDK to opt out/in from all tracking, or keychain tid storage, and/or city/country level tracking. By default, the MXO SDK is opted in for all settings.
- */
 
+/**
+Privacy Compliance Opt-Out Configuration. This configuration allows you to include/exclude a user from specific levels of tracking, as defined by the `MXOOptInOptions`.  By default, the MXO SDK is opted in for all settings.
+
+ ## Example (Swift)
+ ```swift
+ // Opt out of all tracking, `optInOptions` are ignored when opted out.
+ MedalliaMXO.optOutConfiguration = MXOOptOutConfiguration { builder in
+    builder.optOut = true
+ }
+
+ // Opt back into all tracking, `optInOptions` are required to opt back into tracking options.
+ MedalliaMXO.optOutConfiguration = MXOOptOutConfiguration { builder in
+    builder.optOut = false
+    builder.optInOptions = [.interactionTracking, .keychainTidStorage, .cityCountryDetection]
+ }
+ ```
+ 
+ ## Example (Objective-C)
+ ```objective-c
+ // Opt out of all tracking, `optInOptions` are ignored when opted out.
+ MedalliaMXO.optOutConfiguration = [MXOOptOutConfiguration initWithBuilder:^(MXOOptOutConfigurationBuilder * _Nonnull builder) {
+    builder.optOut = YES;
+ }];
+
+ // Opt back into all tracking, `optInOptions` are required to opt back into tracking options.
+ MedalliaMXO.optOutConfiguration = [MXOOptOutConfiguration initWithBuilder:^(MXOOptOutConfigurationBuilder * _Nonnull builder) {
+    builder.optOut = NO;
+    builder.optInOptions = (InteractionTracking | KeychainTidStorage | CityCountryDetection);
+ }];
+ ```
+ */
 @property (class, nonatomic, nullable) MXOOptOutConfiguration *optOutConfiguration;
 
 @end

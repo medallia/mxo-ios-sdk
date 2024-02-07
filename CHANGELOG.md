@@ -1,3 +1,6 @@
+#### Version 2.0.1
+* [BUGFIX] Fixed a crash caused by a `null` pointer dereference within `objc_setAssociatedObject`, triggered from `OneRuntimeAPIAgent` during offline Interaction processes.
+
 #### Version 2.0.0
 * [BREAKING] Added support for using the MXO SDK with Xcode 15.2. The MXO SDK requires Xcode 15+ (iOS 17).
 * [BREAKING] Updated minimum deployment target to iOS 12.0.

@@ -1,3 +1,6 @@
+#### Version 2.0.2
+* [BUGFIX] Fixed an issue with the Apple Privacy Manifest missing a required key.
+
 #### Version 2.0.1
 * [BUGFIX] Fixed a crash caused by a `null` pointer dereference within `objc_setAssociatedObject`, triggered from `OneRuntimeAPIAgent` during offline Interaction processes.
 

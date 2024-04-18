@@ -8,7 +8,7 @@ import PackageDescription
 let package = Package(
     name: "medallia-mxo-ios-sdk",
     platforms: [
-            .iOS(.v11)
+            .iOS(.v12)
         ],
     products: [
         .library(

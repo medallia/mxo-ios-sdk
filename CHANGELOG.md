@@ -1,3 +1,7 @@
+#### Version 1.2.1
+* [UPDATE] Added Privacy Manifests based on [Apple requirements](https://developer.apple.com/documentation/bundleresources/privacy_manifest_files).
+* [UPDATE] Updated minimum deployment target to iOS 12.0.
+
 #### Version 1.2.0
 * [UPDATE] Removed `OAuth1` from runtime requests. For further details on this see our [migration guide](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-migration-v1.2.0).
 * [BUGFIX] Fixed an issue with a Navigation Bar label's path mismatch across iOS versions.

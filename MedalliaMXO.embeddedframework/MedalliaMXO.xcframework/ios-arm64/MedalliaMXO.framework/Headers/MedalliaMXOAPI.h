@@ -84,7 +84,7 @@ typedef NS_OPTIONS(NSUInteger, MXOOptInOptions) {
 
 @protocol MXOAutomaticInteractionSubscription;
 
-@class MXOConfiguration, MXOAutomaticInteractionSubscriber, MXOAutomaticInteractionTrackingConfiguration, MXOIdentityTransferConfiguration, MXOIdentityTransferConfiguration, MXOIdentityTransferUriMatcher, MXOInteractionRequest, MXOInteractionResponse, MXOResponseCodeRequest, MXOAutomaticInteractionAssignment, MXOAutomaticInteractionExclusion, MXOInteraction, MXOLoggingConfiguration, MXOOptOutConfiguration;
+@class MXOConfiguration, MXOAutomaticInteractionSubscriber, MXOAutomaticInteractionTrackingConfiguration, MXOIdentityTransferConfiguration, MXOIdentityTransferConfiguration, MXOIdentityTransferUriMatcher, MXOInteractionRequest, MXOInteractionResponse, MXOResponseCodeRequest, MXOAutomaticInteractionAssignment, MXOAutomaticInteractionExclusion, MXOAutomaticInteractionInclusion, MXOInteraction, MXOLoggingConfiguration, MXOOptOutConfiguration;
 
 @interface MedalliaMXO : NSObject
 
@@ -165,6 +165,9 @@ typedef NS_OPTIONS(NSUInteger, MXOOptInOptions) {
 
 + (BOOL)excludeAutomaticInteraction:(MXOAutomaticInteractionExclusion *)excludeInteration
                      error:(NSError *__autoreleasing _Nullable * _Nullable)error NS_SWIFT_NAME(exclude(automaticInteraction:));
+
++ (BOOL)includeAutomaticInteraction:(MXOAutomaticInteractionInclusion *)includeInteration
+                     error:(NSError *__autoreleasing _Nullable * _Nullable)error NS_SWIFT_NAME(include(automaticInteraction:));
 
 + (BOOL)sendInteractionForOutboundLink:(NSURL *)link
                                  error:(NSError *__autoreleasing _Nullable * _Nullable)error NS_SWIFT_NAME(sendInteraction(forOutboundLink:));

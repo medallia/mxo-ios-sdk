@@ -37,5 +37,6 @@ FOUNDATION_EXPORT const unsigned char MedalliaMXOVersionString[];
 #import <MedalliaMXO/MXOAutomaticInteractionSubscription.h>
 #import <MedalliaMXO/MXOAutomaticInteractionAssignment.h>
 #import <MedalliaMXO/MXOAutomaticInteractionExclusion.h>
+#import <MedalliaMXO/MXOAutomaticInteractionInclusion.h>
 #import <MedalliaMXO/MXOLoggingConfiguration.h>
 #import <MedalliaMXO/MXOOptOutConfiguration.h>

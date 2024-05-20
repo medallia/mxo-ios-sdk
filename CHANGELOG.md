@@ -1,3 +1,6 @@
+#### Version 2.0.3-pre-alpha.0
+* [UPDATE] Fixes to support the latest app code signing standards from Apple.
+
 #### Version 2.0.2
 * [BUGFIX] Fixed an issue with the Apple Privacy Manifest missing a required key.
 

@@ -1,3 +1,6 @@
+#### Version 2.1.0-pre-alpha.1
+* [UPDATE] CI: Test release build 
+
 #### Version 2.1.0-pre-alpha.0
 * [NEW] Added a new API which allows to include an Interaction back into tracking if it was previously excluded.
 * [UPDATE] Fixes to support the latest app code signing standards from Apple.

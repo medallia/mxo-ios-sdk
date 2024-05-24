@@ -24,10 +24,6 @@
 		<data>
 		TtSfxye3/wKq+U4MefZUUK+l8EU=
 		</data>
-		<key>Headers/MXOAutomaticInteractionInclusion.h</key>
-		<data>
-		Z88Dn8wJjrJdusnCGKBNSsgku6Y=
-		</data>
 		<key>Headers/MXOAutomaticInteractionSubscriber.h</key>
 		<data>
 		G76UaO3UEHZREW+Zb4m+KJIPgjs=
@@ -102,15 +98,15 @@
 		</data>
 		<key>Headers/MedalliaMXO.h</key>
 		<data>
-		3SL9kdK8QR+jtNu6N5KydiNrTgU=
+		1WEXapuAW+Yp0buJxCv28CLu0so=
 		</data>
 		<key>Headers/MedalliaMXOAPI.h</key>
 		<data>
-		8scq71LiMZnXVw8hHU+Jw6PvBlk=
+		jzVrUxtopk9tKumByMB4F8zLxEE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DjV2r1N1U46S3ryl3U8R/9lNTmQ=
+		7CMWZvvbvqn5sNn3IX/e+n3a9DY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -176,17 +172,6 @@
 			<key>hash2</key>
 			<data>
 			PRRLrQHWi/zbCGd/Xd+44sgoLUIF30OW+mPbdEgVa0E=
-			</data>
-		</dict>
-		<key>Headers/MXOAutomaticInteractionInclusion.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Z88Dn8wJjrJdusnCGKBNSsgku6Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			yeVMNEUo+Bi9c63PwEeOfl7l6EyLt5r5BhZscM9KPEA=
 			</data>
 		</dict>
 		<key>Headers/MXOAutomaticInteractionSubscriber.h</key>
@@ -391,22 +376,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3SL9kdK8QR+jtNu6N5KydiNrTgU=
+			1WEXapuAW+Yp0buJxCv28CLu0so=
 			</data>
 			<key>hash2</key>
 			<data>
-			h0tKxi0B2nt2sSGoKwFoBY7tpZeJVB06oMjftqSu438=
+			+7lA0mVcU/pUaJZkZcGTd6dhlTWCOAIqVNXbgG241os=
 			</data>
 		</dict>
 		<key>Headers/MedalliaMXOAPI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8scq71LiMZnXVw8hHU+Jw6PvBlk=
+			jzVrUxtopk9tKumByMB4F8zLxEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			dL6qNIe4G5EbCiVqNZZMrixsSJpkto2scFcF5wPV/Bc=
+			TiLuDki4fyHkLA0geamQWcvz8iNJMu3BkjibYb5dAqw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

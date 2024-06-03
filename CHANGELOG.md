@@ -2,6 +2,9 @@
 * [NEW] Added a new API which allows to include an Interaction back into tracking if it was previously excluded.
 * [UPDATE] Fixes to support the latest app code signing standards from Apple.
 
+#### Version 2.0.3
+* [UPDATE] Added a distribution certificate for signing the MXO SDK to support the latest app code signing standards from Apple.
+
 #### Version 2.0.2
 * [BUGFIX] Fixed an issue with the Apple Privacy Manifest missing a required key.
 

@@ -1,6 +1,17 @@
-#### Version 2.1.0-pre-alpha.0
-* [NEW] Added a new API which allows to include an Interaction back into tracking if it was previously excluded.
-* [UPDATE] Fixes to support the latest app code signing standards from Apple.
+#### Version 3.0.0
+* [BREAKING] Added support for using the MXO SDK with Xcode 16.2. The MXO SDK requires Xcode 16+ (iOS 18). Please see our known issues [online documentation](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-known-issues).
+* [BREAKING] Updated minimum deployment target to iOS 13.0.
+* [BREAKING] Upgraded Swift version from 5 to 6.
+* [NEW] Added Bridge functionality for communication between other Medallia SDKs. For further details on this, see our [online documentation](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-additional-integrations).
+* [NEW] Added ability to include an Interaction back for tracking if it was excluded from Interaction tracking previously. For further details on this, see our [online documentation](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-including-interaction).
+* [UPDATE] Updated the Apple Privacy Manifest with a required keys.
+* [BUGFIX] Fixed an issue with full screen optimizations where tapping outside an image was sending a positive response.
+* [BUGFIX] Fixed an issue with identity transfer logic where an `mxo-click` interaction was not properly sent.
+* [BUGFIX] Fixed an issue where an app preference path was not properly retrieved.
+* [BUGFIX] Fixed an issue where an Attribute Capture Point could be saved with an invalid name.
+
+#### Version 2.0.3
+* [UPDATE] Added a distribution certificate for signing the MXO SDK to support the latest app code signing standards from Apple.
 
 #### Version 2.0.2
 * [BUGFIX] Fixed an issue with the Apple Privacy Manifest missing a required key.

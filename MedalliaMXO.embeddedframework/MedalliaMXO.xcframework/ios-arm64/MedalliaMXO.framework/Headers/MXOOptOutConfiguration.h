@@ -14,6 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 //=========================================
 #pragma mark - typedef
 //=========================================
+
+/*!
+A block type used for building an ``MXOOptOutConfiguration`` object.
+*/
 typedef void (^MXOOptOutConfigurationBuilderBlock)(MXOOptOutConfigurationBuilder *builder);
 
 
@@ -22,44 +26,70 @@ typedef void (^MXOOptOutConfigurationBuilderBlock)(MXOOptOutConfigurationBuilder
 //=========================================
 
 /**
- Privacy Compliance Opt-Out Configuration. This configuration allows you to include/exclude a user from specific levels of tracking, as defined by the `MXOOptInOptions`.  By default, the MXO SDK is opted in for all settings.
+The optout configuration object for the MXO SDK.
  
- ## Example (Swift)
+Used to include/exclude a user from specific levels of tracking, as defined by the ``MXOOptInOptions``. By default, the MXO SDK is opted in for all tracking.
+ 
+## Properties
+- `optOut`: The boolean identifying whether a user is opted out of tracking.
+- `optInOptions`: Set of options that have opt in enabled.
+ 
+## Examples
+@TabNavigator {
+ @Tab("Swift") {
  ```swift
  // Opt out of all tracking, `optInOptions` are ignored when opted out.
  MedalliaMXO.optOutConfiguration = MXOOptOutConfiguration { builder in
-    builder.optOut = true
+     builder.optOut = true
  }
 
  // Opt back into all tracking, `optInOptions` are required to opt back into tracking options.
  MedalliaMXO.optOutConfiguration = MXOOptOutConfiguration { builder in
-    builder.optOut = false
-    builder.optInOptions = [.interactionTracking, .keychainTidStorage, .cityCountryDetection]
+     builder.optOut = false
+     builder.optInOptions = [.interactionTracking, .keychainTidStorage, .cityCountryDetection]
  }
  ```
- 
- ## Example (Objective-C)
+ }
+ @Tab("Objective-C") {
  ```objective-c
  // Opt out of all tracking, `optInOptions` are ignored when opted out.
  MedalliaMXO.optOutConfiguration = [MXOOptOutConfiguration initWithBuilder:^(MXOOptOutConfigurationBuilder * _Nonnull builder) {
-    builder.optOut = YES;
+     builder.optOut = YES;
  }];
 
  // Opt back into all tracking, `optInOptions` are required to opt back into tracking options.
  MedalliaMXO.optOutConfiguration = [MXOOptOutConfiguration initWithBuilder:^(MXOOptOutConfigurationBuilder * _Nonnull builder) {
-    builder.optOut = NO;
-    builder.optInOptions = (InteractionTracking | KeychainTidStorage | CityCountryDetection);
+     builder.optOut = NO;
+     builder.optInOptions = (InteractionTracking | KeychainTidStorage | CityCountryDetection);
  }];
  ```
- */
+ }
+}
+*/
 @interface MXOOptOutConfiguration : NSObject
 
 //=========================================
 #pragma mark - Properties
 //=========================================
 
+/*!
+The boolean identifying whether a user is opted out of tracking.
+ 
+If set to `true`, the user will be opted out of all tracking, regardless of the specified ``MXOOptInOptions``. No tracking of any kind will occur in this case.
+  
+If set to `false`, the user will be opted back in based on the specified ``MXOOptInOptions``. To opt back in, it is crucial to provide the necessary ``MXOOptInOptions``. Without specifying ``MXOOptInOptions``, the user will remain opted out.
+*/
 @property (nonatomic, assign, readonly) BOOL optOut;
 
+/*!
+Set of options that have opt in enabled.
+ 
+Specifies the options to be opted back in when the `optOut` property is set to `false`.
+
+If `optOut` is set to `true`, no tracking of any kind will occur, regardless of the specified ``MXOOptInOptions``.
+  
+If `optOut` is set to `false`, the user will be opted back in based on the specified ``MXOOptInOptions``. To opt back in, it is crucial to provide the necessary ``MXOOptInOptions``. Without specifying ``MXOOptInOptions``, the user will remain opted out.
+*/
 @property (nonatomic, assign, readonly) MXOOptInOptions optInOptions;
 
 //=========================================
@@ -67,8 +97,11 @@ typedef void (^MXOOptOutConfigurationBuilderBlock)(MXOOptOutConfigurationBuilder
 //=========================================
 
 /*!
-   @brief Create a builder using "this" state.
- */
+Creates a builder for an ``MXOOptOutConfiguration``.
+ 
+## Returns
+An instance of ``MXOOptOutConfigurationBuilder``.
+*/
 - (MXOOptOutConfigurationBuilder *)builder NS_SWIFT_NAME(builder());
 
 - (instancetype)init NS_UNAVAILABLE;
@@ -78,8 +111,11 @@ typedef void (^MXOOptOutConfigurationBuilderBlock)(MXOOptOutConfigurationBuilder
 //=========================================
 
 /*!
-   @brief Create an instance using a builder.
- */
+Creates an instance of ``MXOOptOutConfiguration`` using the provided `builder` block.
+ 
+## Parameters
+- `configBuilderBlock`: The block used to configure the instance.
+*/
 + (instancetype)initWithBuilder:(nullable MXOOptOutConfigurationBuilderBlock)configBuilderBlock NS_SWIFT_NAME(init(withBuilder:));
 
 @end
@@ -88,38 +124,15 @@ typedef void (^MXOOptOutConfigurationBuilderBlock)(MXOOptOutConfigurationBuilder
 #pragma mark - MXOOptOutConfigurationBuilder
 //=========================================
 
-
 /**
- Builder class designed to facilitate the creation of `MXOOptOutConfiguration` objects. It provides a convenient way to configure and customize opt-out settings for user tracking.
-
- ## Example (Swift)
- ```swift
- // Opt out of all tracking, `optInOptions` are ignored when opted out.
- MedalliaMXO.optOutConfiguration = MXOOptOutConfiguration { builder in
-    builder.optOut = true
- }
-
- // Opt back into all tracking, `optInOptions` are required to opt back into tracking options.
- MedalliaMXO.optOutConfiguration = MXOOptOutConfiguration { builder in
-    builder.optOut = false
-    builder.optInOptions = [.interactionTracking, .keychainTidStorage, .cityCountryDetection]
- }
- ```
+The builder class designed to facilitate the creation of ``MXOOptOutConfiguration`` objects.
  
- ## Example (Objective-C)
- ```objective-c
- // Opt out of all tracking, `optInOptions` are ignored when opted out.
- MedalliaMXO.optOutConfiguration = [MXOOptOutConfiguration initWithBuilder:^(MXOOptOutConfigurationBuilder * _Nonnull builder) {
-    builder.optOut = YES;
- }];
+Provides a convenient way to configure and customize optout settings for user tracking.
 
- // Opt back into all tracking, `optInOptions` are required to opt back into tracking options.
- MedalliaMXO.optOutConfiguration = [MXOOptOutConfiguration initWithBuilder:^(MXOOptOutConfigurationBuilder * _Nonnull builder) {
-    builder.optOut = NO;
-    builder.optInOptions = (InteractionTracking | KeychainTidStorage | CityCountryDetection);
- }];
- ```
- */
+## Properties
+- `optOut`: The boolean identifying whether a user is opted out of tracking.
+- `optInOptions`: Set of options that have opt in enabled.
+*/
 @interface MXOOptOutConfigurationBuilder : NSObject
 
 //=========================================
@@ -127,30 +140,35 @@ typedef void (^MXOOptOutConfigurationBuilderBlock)(MXOOptOutConfigurationBuilder
 //=========================================
 
 /**
- A boolean flag indicating the optOut setting.
+The boolean identifying whether a user is opted out of tracking.
 
- If set to `true`, the user will be opted out of all tracking, regardless of the specified `MXOOptInOptions`. No tracking of any kind will occur in this case.
+If set to `true`, the user will be opted out of all tracking, regardless of the specified ``MXOOptInOptions``. No tracking of any kind will occur in this case.
  
- If set to `false`, the user will be opted back in based on the specified `MXOOptInOptions`. To opt back in, it is crucial to provide the necessary `MXOOptInOptions`. Without specifying `MXOOptInOptions`, the user will remain opted out.
- */
+If set to `false`, the user will be opted back in based on the specified ``MXOOptInOptions``. To opt back in, it is crucial to provide the necessary ``MXOOptInOptions``. Without specifying ``MXOOptInOptions``, the user will remain opted out.
+*/
 @property (nonatomic, assign) BOOL optOut;
 
 /**
- Specifies the options to be opted back in when the `optOut` property is `false`.
-
- If `optOut` is set to `true`, no tracking of any kind will occur, regardless of the specified `MXOOptInOptions`.
+Set of options that have opt in enabled.
  
- If `optOut` is set to `false`, the user will be opted back in based on the specified `MXOOptInOptions`. To opt back in, it is crucial to provide the necessary `MXOOptInOptions`. Without specifying `MXOOptInOptions`, the user will remain opted out.
- */
-@property (nonatomic, assign) MXOOptInOptions optInOptions;
+Specifies the options to be opted back in when the `optOut` property is set to `false`.
 
+If `optOut` is set to `true`, no tracking of any kind will occur, regardless of the specified ``MXOOptInOptions``.
+ 
+If `optOut` is set to `false`, the user will be opted back in based on the specified ``MXOOptInOptions``. To opt back in, it is crucial to provide the necessary ``MXOOptInOptions``. Without specifying ``MXOOptInOptions``, the user will remain opted out.
+*/
+@property (nonatomic, assign) MXOOptInOptions optInOptions;
 
 //=========================================
 #pragma mark - Instance Methods
 //=========================================
+
 /*!
-   @brief Create an MXOOptOutConfiguration.
- */
+Creates an ``MXOOptOutConfiguration`` object.
+ 
+## Returns
+An instance of ``MXOOptOutConfiguration``.
+*/
 - (MXOOptOutConfiguration *)build;
 
 @end

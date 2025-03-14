@@ -18,6 +18,7 @@ FOUNDATION_EXPORT const unsigned char MedalliaMXOVersionString[];
 #import <MedalliaMXO/MedalliaMXOAPI.h>
 #import <MedalliaMXO/MXOInteraction.h>
 #import <MedalliaMXO/MXOConfiguration.h>
+#import <MedalliaMXO/MedalliaConfiguration.h>
 #import <MedalliaMXO/MXOAutomaticInteractionTrackingConfiguration.h>
 #import <MedalliaMXO/MXOIdentityTransferConfiguration.h>
 #import <MedalliaMXO/MXOIdentityTransferUriMatcher.h>

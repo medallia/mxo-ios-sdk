@@ -11,103 +11,165 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class MXOConfigurationBuilder;
 
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 #pragma mark - typedef
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
+
+/*!
+A block type used for building an ``MXOConfiguration`` object.
+*/
 typedef void (^MXOConfigurationBuilderBlock)(MXOConfigurationBuilder *builder);
 
-
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 #pragma mark - MXOConfiguration
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 
 /*!
-   @brief Required arguments for configuring the MXO SDK.
- */
+The configuration object for the MXO SDK. 
+ 
+Required arguments for configuring the SDK. The MXO SDK does not support partial, or piecemeal, configuration. You must provide all parameters, either all valid or invalid (empty string or nil). When configured with invalid parameters, the SDK is set in an unconfigured state.
+ 
+## Properties
+- `siteKey`: The MXO workspace to configure the SDK with.
+- `touchpoint`: The MXO Touchpoint to configure the SDK with.
+- `host`: The MXO host to send data to.
+- `adminMode`: The Mode of the MXO SDK.
+ 
+## Examples
+@TabNavigator {
+ @Tab("Swift") {
+ ```swift
+ MedalliaMXO.configuration = MXOConfiguration { builder in
+     builder.adminMode = true
+     builder.touchpoint = URL(string: "myAppsNameURI")
+     builder.host = URL(string: "eu2.thunderhead.com")
+     builder.siteKey = "ONE-XXXXXXXXXX-1022"
+ }
+ ```
+ }
+ @Tab("Objective-C") {
+ ```objective-c
+ MedalliaMXO.configuration = [MXOConfiguration initWithBuilder:^(MXOConfigurationBuilder * _Nonnull builder) {
+     builder.adminMode = YES;
+     builder.touchpoint = [NSURL URLWithString:@"myAppsNameURI"];
+     builder.host = [NSURL URLWithString:@"eu2.thunderhead.com"];
+     builder.siteKey = @"ONE-XXXXXXXXXX-1022";
+ }];
+ ```
+ }
+}
+*/
 @interface MXOConfiguration : NSObject
 
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 #pragma mark - Properties
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 
 /*!
-   @brief The MXO space site key.
- */
+The MXO workspace to configure the SDK with.
+*/
 @property (nonatomic, copy, readonly, nullable) NSString *siteKey;
 
 /*!
-   @brief The MXO touchpoint URI.
- */
+The MXO Touchpoint to configure the SDK with.
+*/
 @property (nonatomic, strong, readonly, nullable) NSURL *touchpoint;
 
 /*!
-   @brief The MXO server instance your space is hosted on.
- */
+The MXO host to send data to.
+*/
 @property (nonatomic, strong, readonly, nullable) NSURL *host;
 
 /*!
-   @brief Define whether the framework is initialized in Admin or User mode. Set YES to initialize in Admin mode. Otherwise set NO to initialize in User mode.
- */
+The mode of the MXO SDK.
+ 
+ If `adminMode` is `true`, the SDK is configured in Admin mode.
+
+ If `adminMode` is `false`, the SDK is configured in User mode.
+*/
 @property (nonatomic, assign, readonly) BOOL adminMode;
 
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 #pragma mark - Instance Methods
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 
 /*!
-   @brief Create a builder using "this" state.
- */
+Creates a builder for an ``MXOConfiguration``.
+ 
+## Returns
+An instance of ``MXOConfigurationBuilder``.
+*/
 - (MXOConfigurationBuilder *)builder NS_SWIFT_NAME(builder());
 
 - (instancetype)init NS_UNAVAILABLE;
 
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 #pragma mark - Class Methods
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 
 /*!
-   @brief Create an instance using a builder.
- */
+Creates an instance of ``MXOConfiguration`` using the provided `builder` block.
+ 
+## Parameters
+- `configBuilderBlock`: The block used to configure the instance.
+*/
 + (instancetype)initWithBuilder:(nullable MXOConfigurationBuilderBlock)configBuilderBlock NS_SWIFT_NAME(init(withBuilder:));
 
 @end
 
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 #pragma mark - MXOConfigurationBuilder
-///////////////////////////////////////////////////////////////////////////////////////////
-///
-@interface MXOConfigurationBuilder : NSObject
-
-///////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark - Properties
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 
 /*!
-   @brief The MXO space site key.
- */
+The builder class designed to facilitate the creation of ``MXOConfiguration`` objects.
+ 
+## Properties
+- `siteKey`: The MXO workspace to configure the SDK with.
+- `touchpoint`: The MXO Touchpoint to configure the SDK with.
+- `host`: The MXO host to send data to.
+- `adminMode`: The Mode of the MXO SDK.
+*/
+@interface MXOConfigurationBuilder : NSObject
+
+//=========================================
+#pragma mark - Properties
+//=========================================
+
+/*!
+The MXO workspace to configure the SDK with.
+*/
 @property (nonatomic, copy, nullable) NSString *siteKey;
 
 /*!
-   @brief The MXO touchpoint URI.
- */
+The MXO Touchpoint to configure the SDK with.
+*/
 @property (nonatomic, strong, nullable) NSURL *touchpoint;
 
 /*!
-   @brief The MXO server instance your space is hosted on.
- */
+The MXO host to send data to.
+*/
 @property (nonatomic, strong, nullable) NSURL *host;
 
 /*!
-   @brief Define whether the framework is initialized in Admin or User mode. Set YES to initialize in Admin mode. Otherwise set NO to initialize in User mode.
- */
+The mode of the MXO SDK.
+ 
+If `adminMode` is set to `true`, the SDK will be configuted in Admin mode.
+ 
+If `adminMode` is set to `false`, the SDK will be configuted in User mode.
+*/
 @property (nonatomic, assign) BOOL adminMode;
 
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
 #pragma mark - Instance Methods
-///////////////////////////////////////////////////////////////////////////////////////////
+//=========================================
+
 /*!
-   @brief Create an MXOConfiguration.
- */
+Creates an ``MXOConfiguration`` object.
+ 
+## Returns
+An instance of ``MXOConfiguration``.
+*/
 - (MXOConfiguration *)build;
 
 @end

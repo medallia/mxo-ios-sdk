@@ -6,263 +6,311 @@
 	<dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAction.h</key>
 		<data>
-		1HRtWABeWRbbpEJTtDIXoIxYRqk=
+		giE6VHUpHq4nZDrASnEQQ/PueaI=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAsset.h</key>
 		<data>
-		Eaieet3HdSsuFRgmFyi2txnGOlo=
+		YcntfyTlM/HxDYHZ4Bt48oHDcu8=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAssetResponse.h</key>
 		<data>
-		u3IagrGxZj0Hg/8iF0Z0FV3Bq1I=
+		qYnEsWzwLHdZ1Vz1Eew+q/j0uYY=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionAssignment.h</key>
 		<data>
-		eurwbTV5FWOPoOx0Xuv4L8TGNuA=
+		mxlCDSM40E+z1HGQZmRx/3XoI5Q=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionExclusion.h</key>
 		<data>
-		TtSfxye3/wKq+U4MefZUUK+l8EU=
+		Tk1T/zbuOm8Hd/uwC3yTPxWaNqQ=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionInclusion.h</key>
 		<data>
-		Z88Dn8wJjrJdusnCGKBNSsgku6Y=
+		qD3CnaIumlYYS9gS8ML21Et6X1c=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscriber.h</key>
 		<data>
-		G76UaO3UEHZREW+Zb4m+KJIPgjs=
+		DNWCFqE2cdf0ahK/YiKz21qYhcM=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscription.h</key>
 		<data>
-		VOOxvw3egd5yy1dz8EydPz2CbpQ=
+		qFJ2+4UWE0nxxut8HuMPZQNSwAQ=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionTrackingConfiguration.h</key>
 		<data>
-		ch9V6tKbeah9WbDkAYF2xdYzKuY=
+		KStvtNV/6fpFezLH0vZZM07YN1c=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOCaptureActivityPoint.h</key>
 		<data>
-		g1dhHXj0lA5MTlYa9WjOl3Wlo+E=
+		eklTO4K4D90A/v+z1sMkQIzwI0Y=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOCaptureAttributePoint.h</key>
 		<data>
-		5JeXJHhoo7pnkQ/QdtBiV0POQ6s=
+		vNyuzD0UqJ3NMtVKraLaYM0QQgo=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOConfiguration.h</key>
 		<data>
-		G7JqdiSsWXD71Nxn+VLY9xmYL9E=
+		vSW4xL915c+2mW7YykfmsiWRvLg=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOIdentityTransferConfiguration.h</key>
 		<data>
-		o9u4Hw7vFo2fJp9OBRLAJXKeN6Y=
+		PLtwqJ4PVdLv77X5y3UBY29M/kc=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOIdentityTransferUriMatcher.h</key>
 		<data>
-		KEhRbI5cB9xmgS02hKKkIw+A7rE=
+		weeR8jjJpT00dHLGldtaNpk+xwQ=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOInteraction.h</key>
 		<data>
-		RwNUln7OgEaOh/8sgmys/NDfRkU=
+		JC+0E9vNuq2gogrOXsqaboDGa6k=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOInteractionRequest.h</key>
 		<data>
-		jp3eGFZyVCnS9p5u8lXU0GI/24s=
+		wBVlOSeMDPJf7lgPag/es/tQv/U=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOInteractionResponse.h</key>
 		<data>
-		1dyRwWo5Es5Pne+xIOugIxgj5YI=
+		5zd6hIWvpKDup5MvB54rdL3a0+o=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOLoggingConfiguration.h</key>
 		<data>
-		LQGmHQLN1KUaBz5JJZPLNNSo9OU=
+		xv1nx4/8WOIbJ9i14uaM7+T+yjw=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOOptOutConfiguration.h</key>
 		<data>
-		mI5xZIEIReIQql+bsJcI64heQyo=
+		5UYz3e9TBhvMru0s2sGChcuT0HQ=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOOptimizationPoint.h</key>
 		<data>
-		Z035iazGrYO07dPJBmmnxvYA1+4=
+		EGQMZWUEni60CAyYoBUOzMzMJFY=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOProposition.h</key>
 		<data>
-		SuYpsXXTRyu08IfoG4jjSqsP/Ks=
+		1WXh/A+GUtNqqU/DteF3fShT2C0=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXORequest.h</key>
 		<data>
-		QlMcmbeh3wkArH8t4nr4RYnHEO8=
+		twbfhtfp10Er9Y2A2LTDpuM8oRw=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOResponseCode.h</key>
 		<data>
-		JTeUICcN2nkkQtH651JmI5I0W0E=
+		rSgbdqL+dt5rq2aRsk10M6tihkQ=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOResponseCodeRequest.h</key>
 		<data>
-		aNuaCVT1i22ix62nFd7L+V7I9d4=
+		4txHt4uAg3qXg3V3k4KVav1mSro=
+		</data>
+		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaConfiguration.h</key>
+		<data>
+		e/nzwqNHhShuLzGfdU8+TNkyA60=
+		</data>
+		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaMXO-Swift.h</key>
+		<data>
+		kVN35b8NyXWanWHx9ffZcsOQNn8=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaMXO.h</key>
 		<data>
-		3SL9kdK8QR+jtNu6N5KydiNrTgU=
+		Xma3k1wgpOataTEL4RHYObQASxg=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaMXOAPI.h</key>
 		<data>
-		8scq71LiMZnXVw8hHU+Jw6PvBlk=
+		qy4ba+Cr/PK34ZmwlrL2ydHq8DA=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Info.plist</key>
 		<data>
-		5nuKlvRlytLXIYey2m9yik7wxQc=
+		Un95wj9+2UzYV03BykkjdKaFPsE=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/MedalliaMXO</key>
 		<data>
-		HFTzAZf7vL6yEyEgwTD37pasdmQ=
+		geYh1yvZIBCLR5CblGz39LjZeVM=
+		</data>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		3B45y/jlKW4UvgF/XXVuDS1fuOA=
+		</data>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		cnCv/b4wWKEs09EI2uQIqLOVlOQ=
+		</data>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		u8WwVfFnI00MvrpBbKW1LtdVmIU=
+		</data>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		cnCv/b4wWKEs09EI2uQIqLOVlOQ=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/Modules/module.modulemap</key>
 		<data>
-		7+uuDUWce7WdFjYDcw7/+PU9nKk=
+		6Y1O5ZB66iZZj2cysWzjWZt0ooA=
 		</data>
 		<key>ios-arm64/MedalliaMXO.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		igJrhyEHGUFrxCUhN8ums+sAoMU=
+		p7zd262xgPowCKevIOzDoIJclok=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAction.h</key>
 		<data>
-		1HRtWABeWRbbpEJTtDIXoIxYRqk=
+		giE6VHUpHq4nZDrASnEQQ/PueaI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAsset.h</key>
 		<data>
-		Eaieet3HdSsuFRgmFyi2txnGOlo=
+		YcntfyTlM/HxDYHZ4Bt48oHDcu8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAssetResponse.h</key>
 		<data>
-		u3IagrGxZj0Hg/8iF0Z0FV3Bq1I=
+		qYnEsWzwLHdZ1Vz1Eew+q/j0uYY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionAssignment.h</key>
 		<data>
-		eurwbTV5FWOPoOx0Xuv4L8TGNuA=
+		mxlCDSM40E+z1HGQZmRx/3XoI5Q=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionExclusion.h</key>
 		<data>
-		TtSfxye3/wKq+U4MefZUUK+l8EU=
+		Tk1T/zbuOm8Hd/uwC3yTPxWaNqQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionInclusion.h</key>
 		<data>
-		Z88Dn8wJjrJdusnCGKBNSsgku6Y=
+		qD3CnaIumlYYS9gS8ML21Et6X1c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscriber.h</key>
 		<data>
-		G76UaO3UEHZREW+Zb4m+KJIPgjs=
+		DNWCFqE2cdf0ahK/YiKz21qYhcM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscription.h</key>
 		<data>
-		VOOxvw3egd5yy1dz8EydPz2CbpQ=
+		qFJ2+4UWE0nxxut8HuMPZQNSwAQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionTrackingConfiguration.h</key>
 		<data>
-		ch9V6tKbeah9WbDkAYF2xdYzKuY=
+		KStvtNV/6fpFezLH0vZZM07YN1c=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOCaptureActivityPoint.h</key>
 		<data>
-		g1dhHXj0lA5MTlYa9WjOl3Wlo+E=
+		eklTO4K4D90A/v+z1sMkQIzwI0Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOCaptureAttributePoint.h</key>
 		<data>
-		5JeXJHhoo7pnkQ/QdtBiV0POQ6s=
+		vNyuzD0UqJ3NMtVKraLaYM0QQgo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOConfiguration.h</key>
 		<data>
-		G7JqdiSsWXD71Nxn+VLY9xmYL9E=
+		vSW4xL915c+2mW7YykfmsiWRvLg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOIdentityTransferConfiguration.h</key>
 		<data>
-		o9u4Hw7vFo2fJp9OBRLAJXKeN6Y=
+		PLtwqJ4PVdLv77X5y3UBY29M/kc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOIdentityTransferUriMatcher.h</key>
 		<data>
-		KEhRbI5cB9xmgS02hKKkIw+A7rE=
+		weeR8jjJpT00dHLGldtaNpk+xwQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOInteraction.h</key>
 		<data>
-		RwNUln7OgEaOh/8sgmys/NDfRkU=
+		JC+0E9vNuq2gogrOXsqaboDGa6k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOInteractionRequest.h</key>
 		<data>
-		jp3eGFZyVCnS9p5u8lXU0GI/24s=
+		wBVlOSeMDPJf7lgPag/es/tQv/U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOInteractionResponse.h</key>
 		<data>
-		1dyRwWo5Es5Pne+xIOugIxgj5YI=
+		5zd6hIWvpKDup5MvB54rdL3a0+o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOLoggingConfiguration.h</key>
 		<data>
-		LQGmHQLN1KUaBz5JJZPLNNSo9OU=
+		xv1nx4/8WOIbJ9i14uaM7+T+yjw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOOptOutConfiguration.h</key>
 		<data>
-		mI5xZIEIReIQql+bsJcI64heQyo=
+		5UYz3e9TBhvMru0s2sGChcuT0HQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOOptimizationPoint.h</key>
 		<data>
-		Z035iazGrYO07dPJBmmnxvYA1+4=
+		EGQMZWUEni60CAyYoBUOzMzMJFY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOProposition.h</key>
 		<data>
-		SuYpsXXTRyu08IfoG4jjSqsP/Ks=
+		1WXh/A+GUtNqqU/DteF3fShT2C0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXORequest.h</key>
 		<data>
-		QlMcmbeh3wkArH8t4nr4RYnHEO8=
+		twbfhtfp10Er9Y2A2LTDpuM8oRw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOResponseCode.h</key>
 		<data>
-		JTeUICcN2nkkQtH651JmI5I0W0E=
+		rSgbdqL+dt5rq2aRsk10M6tihkQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOResponseCodeRequest.h</key>
 		<data>
-		aNuaCVT1i22ix62nFd7L+V7I9d4=
+		4txHt4uAg3qXg3V3k4KVav1mSro=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaConfiguration.h</key>
+		<data>
+		e/nzwqNHhShuLzGfdU8+TNkyA60=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaMXO-Swift.h</key>
+		<data>
+		oX+rxlD2bAsQQfPIjHo15GgkOBo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaMXO.h</key>
 		<data>
-		3SL9kdK8QR+jtNu6N5KydiNrTgU=
+		Xma3k1wgpOataTEL4RHYObQASxg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaMXOAPI.h</key>
 		<data>
-		8scq71LiMZnXVw8hHU+Jw6PvBlk=
+		qy4ba+Cr/PK34ZmwlrL2ydHq8DA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Info.plist</key>
 		<data>
-		DjV2r1N1U46S3ryl3U8R/9lNTmQ=
+		XQHkCQ1dHztivsJ2qFnbW5+PeUs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/MedalliaMXO</key>
 		<data>
-		sU3kZLlM7w2XW6XMpHwRz3zFdPw=
+		027Fkdsezv7oUfJGr/Ml9oXLI28=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		3B45y/jlKW4UvgF/XXVuDS1fuOA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		taqtHuS7UkuOSVxu+Krfi+9YfnM=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		hWYiY7TuVs4jlxwEZtnP4tn85Qs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		taqtHuS7UkuOSVxu+Krfi+9YfnM=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		3B45y/jlKW4UvgF/XXVuDS1fuOA=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		+pwGmCKclv6MubH4/xrcMO7Bebw=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		gSN0JFxeN8TQQSm8UER0+w9sUwo=
+		</data>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		+pwGmCKclv6MubH4/xrcMO7Bebw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/module.modulemap</key>
 		<data>
-		7+uuDUWce7WdFjYDcw7/+PU9nKk=
+		6Y1O5ZB66iZZj2cysWzjWZt0ooA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		igJrhyEHGUFrxCUhN8ums+sAoMU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		HK7kUvchnAHjhRww6/nPtq86J3g=
-		</data>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		2Ijv0cNHh2Vxo499odpULi5xde4=
+		p7zd262xgPowCKevIOzDoIJclok=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeResources</key>
 		<data>
-		X+C6Ly7e+I/Cl+XH97FfpMRM7NU=
-		</data>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		2/kmlGh0uYF8oln2Np3IwmhHvEA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -271,715 +319,847 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1HRtWABeWRbbpEJTtDIXoIxYRqk=
+			giE6VHUpHq4nZDrASnEQQ/PueaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJKplfsoLiDTCcURq17LZIzY4pRql/7oXEyu00GXRtI=
+			ipVlq5g7UAn6kCvbKc2MN8cOzJJmWsUbcQjwo1up1Zc=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAsset.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Eaieet3HdSsuFRgmFyi2txnGOlo=
+			YcntfyTlM/HxDYHZ4Bt48oHDcu8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SZkm+5Hd/hWenmt8AGt4bQX1YIDTZHg8m5lg2mWdR8E=
+			t/iTNIi2WtLmLeXUpchG5qqSir4NOb4lXElO+C+HzNw=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAssetResponse.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u3IagrGxZj0Hg/8iF0Z0FV3Bq1I=
+			qYnEsWzwLHdZ1Vz1Eew+q/j0uYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ocLL0AkIsJhNvAtvJVj/Lc3/+rGDl7nR7SyI2wT+aYI=
+			TunMcP2w4ON1WnFVBk63h3H0xh6HC6EHo2oZZsP+6IU=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionAssignment.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eurwbTV5FWOPoOx0Xuv4L8TGNuA=
+			mxlCDSM40E+z1HGQZmRx/3XoI5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			kq8IFJ4Rlwjw1adgZ752LUYrva1PaDpmub7plfM37Ow=
+			uZ4dBidlpOX+hzlxfC+MvwZ+NYPLs/R8qaFLzfbLoWE=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionExclusion.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TtSfxye3/wKq+U4MefZUUK+l8EU=
+			Tk1T/zbuOm8Hd/uwC3yTPxWaNqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			PRRLrQHWi/zbCGd/Xd+44sgoLUIF30OW+mPbdEgVa0E=
+			mpqq9QuqoKdaZ7jCUzRJ9AuvstAURvrwaUa718tm0VE=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionInclusion.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z88Dn8wJjrJdusnCGKBNSsgku6Y=
+			qD3CnaIumlYYS9gS8ML21Et6X1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			yeVMNEUo+Bi9c63PwEeOfl7l6EyLt5r5BhZscM9KPEA=
+			Y0eCj3LATMdldcUqfzC54mL9CF6kd3H9AOWs33mmxRU=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscriber.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G76UaO3UEHZREW+Zb4m+KJIPgjs=
+			DNWCFqE2cdf0ahK/YiKz21qYhcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			PUTgSG/7Lgvtv3MKPC+X24iJ04CFTAwGwHCUNsVmLiM=
+			iCDNiPHsjGh8LMfBYHoH4PPTv/GlS5ZPL9knOZPEQfg=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscription.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VOOxvw3egd5yy1dz8EydPz2CbpQ=
+			qFJ2+4UWE0nxxut8HuMPZQNSwAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			pu/ns3YEw3P+t1Cqbngz6J8N8ke3vH3gdoJFCrebQw8=
+			H+RRYrCIkrNyp8TKK+KItFWrkQdeSMatxmQfv0Yh/hY=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOAutomaticInteractionTrackingConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ch9V6tKbeah9WbDkAYF2xdYzKuY=
+			KStvtNV/6fpFezLH0vZZM07YN1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			uRNd/B7XUVURkLshJU3Hqo2vYp9Gqn0nLa1pRc/4WWo=
+			IBcFG6u2xkTUoR5ibD+g5ftlYy9fpeEZjZFLhgujEWo=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOCaptureActivityPoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g1dhHXj0lA5MTlYa9WjOl3Wlo+E=
+			eklTO4K4D90A/v+z1sMkQIzwI0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			M2OVaLEjN417ThPxO/q43IrQdl3I/+kxQXFxo1hfnMA=
+			z7PVPotH2EBLj3rvP1j0injnTQEolccC7oe/q0S/MFA=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOCaptureAttributePoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5JeXJHhoo7pnkQ/QdtBiV0POQ6s=
+			vNyuzD0UqJ3NMtVKraLaYM0QQgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7WQ5tlItqaWWLDfeEfyrYNxB3uS9MFV44kYL+nshF7g=
+			cC9PWLg5jELan00pJBtVmrgny3byRpMqBaImeZokBk4=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G7JqdiSsWXD71Nxn+VLY9xmYL9E=
+			vSW4xL915c+2mW7YykfmsiWRvLg=
 			</data>
 			<key>hash2</key>
 			<data>
-			px1p4ixH7p27RbTMrmA/3UOFn8pInZioMw5Zk+sB7Ow=
+			gBocc9p0aK1XelTGK8vunn38EF+V8TsuBrCZkbfPtas=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOIdentityTransferConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o9u4Hw7vFo2fJp9OBRLAJXKeN6Y=
+			PLtwqJ4PVdLv77X5y3UBY29M/kc=
 			</data>
 			<key>hash2</key>
 			<data>
-			wOb6KWiGpT6teCytlfh+qSIcpiQZl/zMwVtuIx3VR+o=
+			o539684QIz6SR40k4TgujQ6kQUyaEV/YsEJKw7Pnhm8=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOIdentityTransferUriMatcher.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KEhRbI5cB9xmgS02hKKkIw+A7rE=
+			weeR8jjJpT00dHLGldtaNpk+xwQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qjwx44Q18mN2Rn1sHjTVV5kdV6NyvwGCQaMI04xdkXc=
+			4WuVaAUUMGk6pFJ3RxV2vsZUgNt/gQF+Y24QZhhNIq8=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOInteraction.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RwNUln7OgEaOh/8sgmys/NDfRkU=
+			JC+0E9vNuq2gogrOXsqaboDGa6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			jb7sUghSH9pxoVfntRLXBksypb8JbS9jpjvXmkcsms8=
+			e3E+WBIX2Fs6EErKDiVxZMWm9dY/tFtV3Aze7PkdauU=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOInteractionRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jp3eGFZyVCnS9p5u8lXU0GI/24s=
+			wBVlOSeMDPJf7lgPag/es/tQv/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			cJ6VgTDxmNw3hJ+iUu6IC1oJZVTXqcDHzfNiqct06Q4=
+			d648YzBUTJYKhHihZGcQdDAiV8WFK+tBV2tan62FXUQ=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOInteractionResponse.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1dyRwWo5Es5Pne+xIOugIxgj5YI=
+			5zd6hIWvpKDup5MvB54rdL3a0+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			byv6R4SW9jkywfM7n6TgpX5gxKrnIhK3oFEL+J3vn7U=
+			DXaLFjRavaJW8/8NGX0pETALKyzBr9iZroexCOlgl7o=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOLoggingConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LQGmHQLN1KUaBz5JJZPLNNSo9OU=
+			xv1nx4/8WOIbJ9i14uaM7+T+yjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Vef994/J0PsjaxYfF6SAV0Xp96iJ6h18FxCPh7OaMs=
+			1m2FZ9zzTxQ7LxFNRJy25cqwTdi/jW2n8cXXdizyH6I=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOOptOutConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mI5xZIEIReIQql+bsJcI64heQyo=
+			5UYz3e9TBhvMru0s2sGChcuT0HQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			rszfQcWvPEYWoisjMA06nA9Ow5sNkVwbYqpPCMUA9eI=
+			EYRK5ibaywQ8K8/QIn7ngn13aQ00+7Wk5KPlui3qqD0=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOOptimizationPoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z035iazGrYO07dPJBmmnxvYA1+4=
+			EGQMZWUEni60CAyYoBUOzMzMJFY=
 			</data>
 			<key>hash2</key>
 			<data>
-			akAMAo9BpfbWtAoAJB8GIHi8CNE/K+L7NCzBqa9appw=
+			SSJmikUT0wScdy1JIe9/G/NnJrXTp2UuCta4j3WHAdg=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOProposition.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SuYpsXXTRyu08IfoG4jjSqsP/Ks=
+			1WXh/A+GUtNqqU/DteF3fShT2C0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WqZvKbr1PlxmPqZHJV3ZvYBg/gAe0JVfdaNJnskY1/8=
+			kzOsF6BBtdItMn5FlCpR8DKIS8+mGdfard1hDimRaJ8=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXORequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QlMcmbeh3wkArH8t4nr4RYnHEO8=
+			twbfhtfp10Er9Y2A2LTDpuM8oRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			h7SlNeKJyS2MRtvGNbCzwrU7lWnNXKCOfp5bQPSESHI=
+			Ts8LjHocPywX4649tpzy3xzKWxJR2Bh8g9zmtFHBuD8=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOResponseCode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JTeUICcN2nkkQtH651JmI5I0W0E=
+			rSgbdqL+dt5rq2aRsk10M6tihkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			MEQQMh1phJcll+j2tlo20QE7dHoyHsoRZCb2VDBUhA8=
+			7v7WwVSIBsf8Pd8Rd0vzPnRPGo1Qmtu6ekCbaWRq7hQ=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MXOResponseCodeRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aNuaCVT1i22ix62nFd7L+V7I9d4=
+			4txHt4uAg3qXg3V3k4KVav1mSro=
 			</data>
 			<key>hash2</key>
 			<data>
-			rbFwwVaWhDTFtAhqKEt5W30S3xe2D6kiuUd/D74sEoQ=
+			L5XHfBlTsaAqeJfhj3fJs2AqAaw0qgZjisjJahdrrWs=
+			</data>
+		</dict>
+		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaConfiguration.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e/nzwqNHhShuLzGfdU8+TNkyA60=
+			</data>
+			<key>hash2</key>
+			<data>
+			qkAtxokbGVijXr4sLwNQmz9LvIpr78mcpjcxAEX7Jt0=
+			</data>
+		</dict>
+		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaMXO-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kVN35b8NyXWanWHx9ffZcsOQNn8=
+			</data>
+			<key>hash2</key>
+			<data>
+			rwLgs0THbUHHkK8MPzH3Ytbzx0wLFnGKgofaVU9xoBA=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaMXO.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3SL9kdK8QR+jtNu6N5KydiNrTgU=
+			Xma3k1wgpOataTEL4RHYObQASxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			h0tKxi0B2nt2sSGoKwFoBY7tpZeJVB06oMjftqSu438=
+			mr7OigWA9fCUJbQQuX1OOO/O70C7PTyzJ62tTBd1ygw=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Headers/MedalliaMXOAPI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8scq71LiMZnXVw8hHU+Jw6PvBlk=
+			qy4ba+Cr/PK34ZmwlrL2ydHq8DA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dL6qNIe4G5EbCiVqNZZMrixsSJpkto2scFcF5wPV/Bc=
+			YFKuhYZUX4Kxa+Fyv97ER5gbQJ5Fp+wg10oTo12UAkc=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5nuKlvRlytLXIYey2m9yik7wxQc=
+			Un95wj9+2UzYV03BykkjdKaFPsE=
 			</data>
 			<key>hash2</key>
 			<data>
-			9mVc3BTRtDOnBdmJnFrpeScXBEnjmzGC95L435bF9Ow=
+			scaEvbf5IsAO81R22AK6Yqn0nNpFwtkVKJM+Qms4gNc=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/MedalliaMXO</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HFTzAZf7vL6yEyEgwTD37pasdmQ=
+			geYh1yvZIBCLR5CblGz39LjZeVM=
 			</data>
 			<key>hash2</key>
 			<data>
-			y6dsTIVnJUgSIqGCeO1T72QKRzGjqsD6RfyhzKfRF5I=
+			f6Zx13BiUUpWWy58II0fIMJwkSDD5g+nAskdCgNomS4=
+			</data>
+		</dict>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3B45y/jlKW4UvgF/XXVuDS1fuOA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5H4pUwBP4c+eY9VETiHsZtVgeMuucyIhvrPMUtuf1Cc=
+			</data>
+		</dict>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cnCv/b4wWKEs09EI2uQIqLOVlOQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			NPRpHdb8n68L9vwIwbe27IEQE4G3Ano5o05fUgGGnu0=
+			</data>
+		</dict>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u8WwVfFnI00MvrpBbKW1LtdVmIU=
+			</data>
+			<key>hash2</key>
+			<data>
+			YP87KWMkKQSRtH6b8ePGjGrRoeWveDXhiuXvN24sbX8=
+			</data>
+		</dict>
+		<key>ios-arm64/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cnCv/b4wWKEs09EI2uQIqLOVlOQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			NPRpHdb8n68L9vwIwbe27IEQE4G3Ano5o05fUgGGnu0=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7+uuDUWce7WdFjYDcw7/+PU9nKk=
+			6Y1O5ZB66iZZj2cysWzjWZt0ooA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7fC73YTCL+Q+TnSSIZVs6/gOukAjCRFMpAXsgsv6a7s=
+			K0P692hNbFTITDrjyenmyD8rEIZzANXHWZx3T88vDWQ=
 			</data>
 		</dict>
 		<key>ios-arm64/MedalliaMXO.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			igJrhyEHGUFrxCUhN8ums+sAoMU=
+			p7zd262xgPowCKevIOzDoIJclok=
 			</data>
 			<key>hash2</key>
 			<data>
-			yOik4ksiUBf/bLUrJi8KSGUfD/e91Am/0mb4+2+LqWk=
+			iIdGAmEdI6m4l47m+tzSkFInB71AzXaO/wNFPXRA18M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAction.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1HRtWABeWRbbpEJTtDIXoIxYRqk=
+			giE6VHUpHq4nZDrASnEQQ/PueaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJKplfsoLiDTCcURq17LZIzY4pRql/7oXEyu00GXRtI=
+			ipVlq5g7UAn6kCvbKc2MN8cOzJJmWsUbcQjwo1up1Zc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAsset.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Eaieet3HdSsuFRgmFyi2txnGOlo=
+			YcntfyTlM/HxDYHZ4Bt48oHDcu8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SZkm+5Hd/hWenmt8AGt4bQX1YIDTZHg8m5lg2mWdR8E=
+			t/iTNIi2WtLmLeXUpchG5qqSir4NOb4lXElO+C+HzNw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAssetResponse.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u3IagrGxZj0Hg/8iF0Z0FV3Bq1I=
+			qYnEsWzwLHdZ1Vz1Eew+q/j0uYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ocLL0AkIsJhNvAtvJVj/Lc3/+rGDl7nR7SyI2wT+aYI=
+			TunMcP2w4ON1WnFVBk63h3H0xh6HC6EHo2oZZsP+6IU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionAssignment.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eurwbTV5FWOPoOx0Xuv4L8TGNuA=
+			mxlCDSM40E+z1HGQZmRx/3XoI5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			kq8IFJ4Rlwjw1adgZ752LUYrva1PaDpmub7plfM37Ow=
+			uZ4dBidlpOX+hzlxfC+MvwZ+NYPLs/R8qaFLzfbLoWE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionExclusion.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TtSfxye3/wKq+U4MefZUUK+l8EU=
+			Tk1T/zbuOm8Hd/uwC3yTPxWaNqQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			PRRLrQHWi/zbCGd/Xd+44sgoLUIF30OW+mPbdEgVa0E=
+			mpqq9QuqoKdaZ7jCUzRJ9AuvstAURvrwaUa718tm0VE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionInclusion.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z88Dn8wJjrJdusnCGKBNSsgku6Y=
+			qD3CnaIumlYYS9gS8ML21Et6X1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			yeVMNEUo+Bi9c63PwEeOfl7l6EyLt5r5BhZscM9KPEA=
+			Y0eCj3LATMdldcUqfzC54mL9CF6kd3H9AOWs33mmxRU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscriber.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G76UaO3UEHZREW+Zb4m+KJIPgjs=
+			DNWCFqE2cdf0ahK/YiKz21qYhcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			PUTgSG/7Lgvtv3MKPC+X24iJ04CFTAwGwHCUNsVmLiM=
+			iCDNiPHsjGh8LMfBYHoH4PPTv/GlS5ZPL9knOZPEQfg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionSubscription.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VOOxvw3egd5yy1dz8EydPz2CbpQ=
+			qFJ2+4UWE0nxxut8HuMPZQNSwAQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			pu/ns3YEw3P+t1Cqbngz6J8N8ke3vH3gdoJFCrebQw8=
+			H+RRYrCIkrNyp8TKK+KItFWrkQdeSMatxmQfv0Yh/hY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOAutomaticInteractionTrackingConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ch9V6tKbeah9WbDkAYF2xdYzKuY=
+			KStvtNV/6fpFezLH0vZZM07YN1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			uRNd/B7XUVURkLshJU3Hqo2vYp9Gqn0nLa1pRc/4WWo=
+			IBcFG6u2xkTUoR5ibD+g5ftlYy9fpeEZjZFLhgujEWo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOCaptureActivityPoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g1dhHXj0lA5MTlYa9WjOl3Wlo+E=
+			eklTO4K4D90A/v+z1sMkQIzwI0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			M2OVaLEjN417ThPxO/q43IrQdl3I/+kxQXFxo1hfnMA=
+			z7PVPotH2EBLj3rvP1j0injnTQEolccC7oe/q0S/MFA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOCaptureAttributePoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5JeXJHhoo7pnkQ/QdtBiV0POQ6s=
+			vNyuzD0UqJ3NMtVKraLaYM0QQgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			7WQ5tlItqaWWLDfeEfyrYNxB3uS9MFV44kYL+nshF7g=
+			cC9PWLg5jELan00pJBtVmrgny3byRpMqBaImeZokBk4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G7JqdiSsWXD71Nxn+VLY9xmYL9E=
+			vSW4xL915c+2mW7YykfmsiWRvLg=
 			</data>
 			<key>hash2</key>
 			<data>
-			px1p4ixH7p27RbTMrmA/3UOFn8pInZioMw5Zk+sB7Ow=
+			gBocc9p0aK1XelTGK8vunn38EF+V8TsuBrCZkbfPtas=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOIdentityTransferConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o9u4Hw7vFo2fJp9OBRLAJXKeN6Y=
+			PLtwqJ4PVdLv77X5y3UBY29M/kc=
 			</data>
 			<key>hash2</key>
 			<data>
-			wOb6KWiGpT6teCytlfh+qSIcpiQZl/zMwVtuIx3VR+o=
+			o539684QIz6SR40k4TgujQ6kQUyaEV/YsEJKw7Pnhm8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOIdentityTransferUriMatcher.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KEhRbI5cB9xmgS02hKKkIw+A7rE=
+			weeR8jjJpT00dHLGldtaNpk+xwQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qjwx44Q18mN2Rn1sHjTVV5kdV6NyvwGCQaMI04xdkXc=
+			4WuVaAUUMGk6pFJ3RxV2vsZUgNt/gQF+Y24QZhhNIq8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOInteraction.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RwNUln7OgEaOh/8sgmys/NDfRkU=
+			JC+0E9vNuq2gogrOXsqaboDGa6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			jb7sUghSH9pxoVfntRLXBksypb8JbS9jpjvXmkcsms8=
+			e3E+WBIX2Fs6EErKDiVxZMWm9dY/tFtV3Aze7PkdauU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOInteractionRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jp3eGFZyVCnS9p5u8lXU0GI/24s=
+			wBVlOSeMDPJf7lgPag/es/tQv/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			cJ6VgTDxmNw3hJ+iUu6IC1oJZVTXqcDHzfNiqct06Q4=
+			d648YzBUTJYKhHihZGcQdDAiV8WFK+tBV2tan62FXUQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOInteractionResponse.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1dyRwWo5Es5Pne+xIOugIxgj5YI=
+			5zd6hIWvpKDup5MvB54rdL3a0+o=
 			</data>
 			<key>hash2</key>
 			<data>
-			byv6R4SW9jkywfM7n6TgpX5gxKrnIhK3oFEL+J3vn7U=
+			DXaLFjRavaJW8/8NGX0pETALKyzBr9iZroexCOlgl7o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOLoggingConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LQGmHQLN1KUaBz5JJZPLNNSo9OU=
+			xv1nx4/8WOIbJ9i14uaM7+T+yjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Vef994/J0PsjaxYfF6SAV0Xp96iJ6h18FxCPh7OaMs=
+			1m2FZ9zzTxQ7LxFNRJy25cqwTdi/jW2n8cXXdizyH6I=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOOptOutConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mI5xZIEIReIQql+bsJcI64heQyo=
+			5UYz3e9TBhvMru0s2sGChcuT0HQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			rszfQcWvPEYWoisjMA06nA9Ow5sNkVwbYqpPCMUA9eI=
+			EYRK5ibaywQ8K8/QIn7ngn13aQ00+7Wk5KPlui3qqD0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOOptimizationPoint.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z035iazGrYO07dPJBmmnxvYA1+4=
+			EGQMZWUEni60CAyYoBUOzMzMJFY=
 			</data>
 			<key>hash2</key>
 			<data>
-			akAMAo9BpfbWtAoAJB8GIHi8CNE/K+L7NCzBqa9appw=
+			SSJmikUT0wScdy1JIe9/G/NnJrXTp2UuCta4j3WHAdg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOProposition.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SuYpsXXTRyu08IfoG4jjSqsP/Ks=
+			1WXh/A+GUtNqqU/DteF3fShT2C0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WqZvKbr1PlxmPqZHJV3ZvYBg/gAe0JVfdaNJnskY1/8=
+			kzOsF6BBtdItMn5FlCpR8DKIS8+mGdfard1hDimRaJ8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXORequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QlMcmbeh3wkArH8t4nr4RYnHEO8=
+			twbfhtfp10Er9Y2A2LTDpuM8oRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			h7SlNeKJyS2MRtvGNbCzwrU7lWnNXKCOfp5bQPSESHI=
+			Ts8LjHocPywX4649tpzy3xzKWxJR2Bh8g9zmtFHBuD8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOResponseCode.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JTeUICcN2nkkQtH651JmI5I0W0E=
+			rSgbdqL+dt5rq2aRsk10M6tihkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			MEQQMh1phJcll+j2tlo20QE7dHoyHsoRZCb2VDBUhA8=
+			7v7WwVSIBsf8Pd8Rd0vzPnRPGo1Qmtu6ekCbaWRq7hQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MXOResponseCodeRequest.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aNuaCVT1i22ix62nFd7L+V7I9d4=
+			4txHt4uAg3qXg3V3k4KVav1mSro=
 			</data>
 			<key>hash2</key>
 			<data>
-			rbFwwVaWhDTFtAhqKEt5W30S3xe2D6kiuUd/D74sEoQ=
+			L5XHfBlTsaAqeJfhj3fJs2AqAaw0qgZjisjJahdrrWs=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaConfiguration.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e/nzwqNHhShuLzGfdU8+TNkyA60=
+			</data>
+			<key>hash2</key>
+			<data>
+			qkAtxokbGVijXr4sLwNQmz9LvIpr78mcpjcxAEX7Jt0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaMXO-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oX+rxlD2bAsQQfPIjHo15GgkOBo=
+			</data>
+			<key>hash2</key>
+			<data>
+			icHXsliASVF1pJ9aVxPe15e245mBHTJeWDc2aTUGFnA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaMXO.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3SL9kdK8QR+jtNu6N5KydiNrTgU=
+			Xma3k1wgpOataTEL4RHYObQASxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			h0tKxi0B2nt2sSGoKwFoBY7tpZeJVB06oMjftqSu438=
+			mr7OigWA9fCUJbQQuX1OOO/O70C7PTyzJ62tTBd1ygw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Headers/MedalliaMXOAPI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8scq71LiMZnXVw8hHU+Jw6PvBlk=
+			qy4ba+Cr/PK34ZmwlrL2ydHq8DA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dL6qNIe4G5EbCiVqNZZMrixsSJpkto2scFcF5wPV/Bc=
+			YFKuhYZUX4Kxa+Fyv97ER5gbQJ5Fp+wg10oTo12UAkc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DjV2r1N1U46S3ryl3U8R/9lNTmQ=
+			XQHkCQ1dHztivsJ2qFnbW5+PeUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			O04KyRY3Qj/iH2ZZl0PyzOlX9PftmHtG5rq9weioaBA=
+			ShXbTrhdTsUrgC/iIjFJuaw2ljParC5u7YPRG2vnJiI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/MedalliaMXO</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sU3kZLlM7w2XW6XMpHwRz3zFdPw=
+			027Fkdsezv7oUfJGr/Ml9oXLI28=
 			</data>
 			<key>hash2</key>
 			<data>
-			LnzJLuN9wSVyzCN3wF6mS8rOBBpHVo/BM4r6ZnifIF4=
+			LhrqS964QAfOO8axqA8pNPqIzNAvHVLXgKWsuZEF4vM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3B45y/jlKW4UvgF/XXVuDS1fuOA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5H4pUwBP4c+eY9VETiHsZtVgeMuucyIhvrPMUtuf1Cc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			taqtHuS7UkuOSVxu+Krfi+9YfnM=
+			</data>
+			<key>hash2</key>
+			<data>
+			/xA6YMQX8LxHfYiFcRMZQa7jE6IHBb74jjfRp1CP0hI=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hWYiY7TuVs4jlxwEZtnP4tn85Qs=
+			</data>
+			<key>hash2</key>
+			<data>
+			1F9OYQomRJxm6WwAf6BNhJugFiDRWVYHAssYKuiZUQo=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			taqtHuS7UkuOSVxu+Krfi+9YfnM=
+			</data>
+			<key>hash2</key>
+			<data>
+			/xA6YMQX8LxHfYiFcRMZQa7jE6IHBb74jjfRp1CP0hI=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3B45y/jlKW4UvgF/XXVuDS1fuOA=
+			</data>
+			<key>hash2</key>
+			<data>
+			5H4pUwBP4c+eY9VETiHsZtVgeMuucyIhvrPMUtuf1Cc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+pwGmCKclv6MubH4/xrcMO7Bebw=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZoVJpqMJqfoFAsDuDzAg6muaQdlIk8y36BXHmZ0OD8Q=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gSN0JFxeN8TQQSm8UER0+w9sUwo=
+			</data>
+			<key>hash2</key>
+			<data>
+			GMgUu4bN1uxD3vM56j3HEE+wBTQAGN2NmcORqsrTfYU=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+pwGmCKclv6MubH4/xrcMO7Bebw=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZoVJpqMJqfoFAsDuDzAg6muaQdlIk8y36BXHmZ0OD8Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7+uuDUWce7WdFjYDcw7/+PU9nKk=
+			6Y1O5ZB66iZZj2cysWzjWZt0ooA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7fC73YTCL+Q+TnSSIZVs6/gOukAjCRFMpAXsgsv6a7s=
+			K0P692hNbFTITDrjyenmyD8rEIZzANXHWZx3T88vDWQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			igJrhyEHGUFrxCUhN8ums+sAoMU=
+			p7zd262xgPowCKevIOzDoIJclok=
 			</data>
 			<key>hash2</key>
 			<data>
-			yOik4ksiUBf/bLUrJi8KSGUfD/e91Am/0mb4+2+LqWk=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HK7kUvchnAHjhRww6/nPtq86J3g=
-			</data>
-			<key>hash2</key>
-			<data>
-			VKYy910i9LJPNT/NKPc6x5yqjma1WP4ejw3CLQBgbIw=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2Ijv0cNHh2Vxo499odpULi5xde4=
-			</data>
-			<key>hash2</key>
-			<data>
-			XqX0AGoxkv0btMkq+AWH02HVT2JXuKbWRFjn85w4Z2A=
+			iIdGAmEdI6m4l47m+tzSkFInB71AzXaO/wNFPXRA18M=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X+C6Ly7e+I/Cl+XH97FfpMRM7NU=
+			2/kmlGh0uYF8oln2Np3IwmhHvEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			G+AdOfQsHrgcQKHbzsuIw5OBE9mSuW2nqXHpH7ZKnPA=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/MedalliaMXO.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			N/jq7XtMWsnVeiKB2cpSerPEAIZKVn686r/jT14U+nU=
 			</data>
 		</dict>
 	</dict>

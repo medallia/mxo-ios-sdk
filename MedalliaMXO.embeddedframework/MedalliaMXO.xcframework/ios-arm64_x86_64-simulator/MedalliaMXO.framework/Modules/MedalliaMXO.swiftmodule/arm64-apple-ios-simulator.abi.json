@@ -1,0 +1,92 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MedalliaMXO",
+    "printedName": "MedalliaMXO",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MedalliaMXO",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "bridgeLogPrefix",
+        "printedName": "bridgeLogPrefix",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:11MedalliaMXO15bridgeLogPrefixSSvp",
+        "mangledName": "$s11MedalliaMXO15bridgeLogPrefixSSvp",
+        "moduleName": "MedalliaMXO",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:11MedalliaMXO15bridgeLogPrefixSSvg",
+            "mangledName": "$s11MedalliaMXO15bridgeLogPrefixSSvg",
+            "moduleName": "MedalliaMXO",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MedalliaSDKEventBusInternal",
+        "printedName": "MedalliaSDKEventBusInternal",
+        "declKind": "Import",
+        "moduleName": "MedalliaMXO",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mxo\/builds\/mxo-ios-sdk\/release\/iOS\/MedalliaMXO\/MedalliaMXO\/BridgeService\/BridgeService.swift",
+      "kind": "StringLiteral",
+      "offset": 147,
+      "length": 20,
+      "value": "\"MXO BridgeService:\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/workspace\/mxo\/builds\/mxo-ios-sdk\/release\/iOS\/MedalliaMXO\/MedalliaMXO\/BridgeService\/BridgeService.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 17,
+      "value": "\"MSDKEBIMXOEvent\""
+    }
+  ]
+}

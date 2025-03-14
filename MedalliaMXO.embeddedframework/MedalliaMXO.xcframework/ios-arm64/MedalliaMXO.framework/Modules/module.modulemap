@@ -1,5 +1,6 @@
 framework module MedalliaMXO {
   umbrella header "MedalliaMXO.h"
+  header "MedalliaMXO-Swift.h"
   
   export *
   module * { export * }
@@ -7,6 +8,7 @@ framework module MedalliaMXO {
   link framework "Accelerate"
   link framework "CoreLocation"
   link framework "Foundation"
+  link framework "AVFoundation"
   link framework "LocalAuthentication"
   link framework "CoreGraphics"
   link framework "MessageUI"

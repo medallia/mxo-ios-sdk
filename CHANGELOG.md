@@ -1,3 +1,6 @@
+#### Version 3.0.1
+* [BUGFIX] Fixed an issue where incorrect information about App name and App version was sent.
+
 #### Version 3.0.0
 * [BREAKING] Added support for using the MXO SDK with Xcode 16.2. The MXO SDK requires Xcode 16+ (iOS 18). Please see our known issues [online documentation](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-known-issues).
 * [BREAKING] Updated minimum deployment target to iOS 13.0.

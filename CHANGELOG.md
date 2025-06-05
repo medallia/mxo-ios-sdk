@@ -1,3 +1,6 @@
+#### Version 3.0.2
+* [BUGFIX] Fixed a crash in `WKWebView` caused by observing its URL property on iOS versions 18.4+.
+
 #### Version 3.0.1
 * [BUGFIX] Fixed an issue where incorrect information about App name and App version was sent.
 

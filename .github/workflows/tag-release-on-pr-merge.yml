@@ -2,63 +2,41 @@ name: Tag and Release on PR Merge
 on:
   pull_request:
     types: [closed]
-#    branches: 
-#     - 'release/*'
+    branches:
+      - 'v*' # Only run on PRs from branches starting with 'v'
 jobs:
   tag-and-release:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
+    # This job only runs for merged PRs on branches starting with 'v'
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'v')
     steps:
-      - name: Get Release Branch Name
-        id: get_release_branch_name
-        run: echo "branch_name=${{ github.head_ref }}" >> $GITHUB_OUTPUT
-
-      - name: Echo Release Branch Name
-        id: echo_release_branch_name
-        run: echo '${{ steps.get_release_branch_name.outputs.branch_name }}'
-      
-      - name: Get Merge sha
-        id: get_merge_sha
-        run: echo "merge_sha=${{ github.sha }}" >> $GITHUB_OUTPUT
-        
-      - name: Echo Merge sha
-        id: echo_merge_sha
-        run: echo '${{ steps.get_merge_sha.outputs.merge_sha }}' 
-        
-      - name: Create Tag Variable
-        id: create_tag_variable
-        if: contains(steps.get_release_branch_name.outputs.branch_name, 'release/')
+      - name: Set Tag and Version Variables
+        id: variables
         run: |
-          BRANCH=${{ steps.get_release_branch_name.outputs.branch_name }}
-          TAG="$(sed 's/release\///g' <<< $BRANCH)"
-          echo "tag=$TAG" >> $GITHUB_OUTPUT
-        
-      - name: Echo Tag Name
-        id: echo_tag_name
-        run: echo "${{ steps.create_tag_variable.outputs.tag }}"
+          BRANCH_NAME="${{ github.head_ref }}"
+          # The tag name will include the 'v' prefix, e.g., v3.0.0
+          echo "tag_name=${BRANCH_NAME}" >> $GITHUB_OUTPUT
+          # The version number for the changelog, without the 'v' prefix, e.g., 3.0.0
+          echo "version_number=${BRANCH_NAME#v}" >> $GITHUB_OUTPUT
       
       - uses: actions/checkout@v2
       
       - name: Get Release Notes
         id: get_release_notes
-        # Get changelog, then filter version header, MOB ticket #, and pull request links.
+        # Get changelog for the specific version. Assumes changelog uses version numbers without 'v' prefix.
         run: |
-          NOTES="$(sed -e "/^#### Version ${{ steps.create_tag_variable.outputs.tag }}/,/^#### /! d" -e "/^#### .*/d" -e 's/(\[.*].*//' -e 's/\*\*.*:\*\*//' CHANGELOG.md)"
+          NOTES="$(sed -e "/^#### Version ${{ steps.variables.outputs.version_number }}/,/^#### /! d" -e "/^#### .*/d" -e 's/(\[.*].*//' -e 's/\*\*.*:\*\*//' CHANGELOG.md)"
           echo "notes<<EOF" >> $GITHUB_OUTPUT
           echo "$NOTES" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-      
-      - name: Echo Release Notes
-        id: echo_release_notes
-        run: echo "${{ steps.get_release_notes.outputs.notes }}"
       
       - name: Tag Release
         id: tag_release
         uses: tvdias/github-tagger@v0.0.2
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          tag: "${{ steps.create_tag_variable.outputs.tag }}"
-          commit-sha: "${{ steps.get_merge_sha.outputs.merge_sha }}"
+          tag: "${{ steps.variables.outputs.tag_name }}"
+          commit-sha: "${{ github.event.pull_request.merge_commit_sha }}"
                
       - name: Create Release
         id: create_release
@@ -66,13 +44,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ steps.create_tag_variable.outputs.tag }}
-          name: ${{ steps.create_tag_variable.outputs.tag }}
+          tag_name: ${{ steps.variables.outputs.tag_name }}
+          name: ${{ steps.variables.outputs.tag_name }}
           body: ${{ steps.get_release_notes.outputs.notes }}
           draft: false
           prerelease: false
 
   deploy-to-cocoapods:
+    # This job will only run after a tag and release have been successfully created.
+    needs: tag-and-release
     runs-on: macOS-latest
 
     steps:

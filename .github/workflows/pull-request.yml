@@ -30,8 +30,6 @@ jobs:
         uses: andstor/file-existence-action@v2
         with:
           files: "CHANGELOG.md"
-        with:
-          files: "CHANGELOG.md"
           fail: false
 
       - name: Get Changed Files
@@ -42,10 +40,12 @@ jobs:
 
       - name: Create Pull Request
         if: steps.check_changelog_exists.outputs.files_exists == 'true' && contains(steps.changed-files.outputs.all_changed_files, 'CHANGELOG.md')
-        id: create_pull_request
-        uses: vsoch/pull-request-action@1.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_PREFIX: "v/"
-          PULL_REQUEST_BRANCH: "main"
-          PULL_REQUEST_REVIEWERS: "skhozinMedallia jtullgrenMedallia"
+        run: |
+          gh pr create \
+            --base "main" \
+            --head "${{ github.ref_name }}" \
+            --title "Release: Merge ${{ github.ref_name }} into main" \
+            --body "This pull request was automatically generated to merge release branch `${{ github.ref_name }}` into `main`." \
+            --reviewer "skhozinMedallia,jtullgrenMedallia"

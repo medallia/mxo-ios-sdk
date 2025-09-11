@@ -1,3 +1,6 @@
+#### Version 3.1.0
+* [NEW] Added support for using the optimization image's `alt-text` to improve accessibility.
+
 #### Version 3.0.2
 * [BUGFIX] Fixed a crash in `WKWebView` caused by observing its URL property on iOS versions 18.4+.
 

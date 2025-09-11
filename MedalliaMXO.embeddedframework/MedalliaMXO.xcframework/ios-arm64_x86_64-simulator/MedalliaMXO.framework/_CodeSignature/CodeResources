@@ -118,11 +118,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cadmufDzZW63aTgTQPA/g9uBkCQ=
+		HUvBLpWA2lmDF1YSrzFnMSWJO/Q=
 		</data>
 		<key>Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3B45y/jlKW4UvgF/XXVuDS1fuOA=
+		uxbiQqDXFDYNc+5SZbuz929wly0=
 		</data>
 		<key>Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BYb4KIxbM71X6sq560922NQpPk4=
+		nXTBSHGgg48RjPvqAul/ZeS2Gv8=
 		</data>
 		<key>Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3B45y/jlKW4UvgF/XXVuDS1fuOA=
+		uxbiQqDXFDYNc+5SZbuz929wly0=
 		</data>
 		<key>Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aH57JzAOnFIV8WI45LwsCk3xAPI=
+		QquYiq6TgcIVSpX/9y4m1SzAskI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -371,7 +371,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5H4pUwBP4c+eY9VETiHsZtVgeMuucyIhvrPMUtuf1Cc=
+			UXSO4aZKE4WUYePfJTFOL7PIq/kzVddQrMoKm1Mjp74=
 			</data>
 		</dict>
 		<key>Modules/MedalliaMXO.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -399,14 +399,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pw4pGpwdBY3jqqJPoo6AJDtuebXEFWQqmFDcLO/WKeQ=
+			Oc+2KsOqalegFj+A24EAcVDjJp/9hTPmJ/odGurEk7Y=
 			</data>
 		</dict>
 		<key>Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5H4pUwBP4c+eY9VETiHsZtVgeMuucyIhvrPMUtuf1Cc=
+			UXSO4aZKE4WUYePfJTFOL7PIq/kzVddQrMoKm1Mjp74=
 			</data>
 		</dict>
 		<key>Modules/MedalliaMXO.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -434,7 +434,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jyK7n6A7t891GecvTFiuDdBb1Q6P9wYWwMA5ApQ9KPo=
+			S6v2wnqtUGdvcelyDlCy0ozj3d2rLeawayXi4C2JNgU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

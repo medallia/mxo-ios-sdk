@@ -1,3 +1,6 @@
+#### Version 3.1.1
+* [BUGFIX] Fixed a crash in SwiftUI Previews where `MedalliaMXOBundle` could not be found within the Preview's sandboxed environment.
+
 #### Version 3.1.0
 * [NEW] Added support for using the optimization image's `alt-text` to improve accessibility.
 

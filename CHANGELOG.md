@@ -1,3 +1,7 @@
+#### Version 3.2.0
+* [NEW] The MXO SDK now automatically includes the Bridge dependency. For more information, see our [online documentation](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-additional-integrations).
+* [NEW] Added new capabilities in Bridge to improve communication across Medallia SDKs.
+
 #### Version 3.1.1
 * [BUGFIX] Fixed a crash in SwiftUI Previews where `MedalliaMXOBundle` could not be found within the Preview's sandboxed environment.
 

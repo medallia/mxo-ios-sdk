@@ -1,3 +1,8 @@
+#### Version 4.0.0
+* [BREAKING] Added support for using the MXO SDK with Xcode 26.4. The MXO SDK requires Xcode 26+ (iOS 26). Please see our known issues [online documentation](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-known-issues).
+* [BREAKING] Updated minimum deployment target to iOS 15.0.
+* [BUGFIX] Fixed an issue where Interaction map wildcards failed to validate programmatic interactions that did not include a leading forward slash.
+
 #### Version 3.2.0
 * [NEW] The MXO SDK now automatically includes the Bridge dependency. For more information, see our [online documentation](https://docs.medallia.com/en/?resourceId=mxo-ios-sdk-additional-integrations).
 * [NEW] Added new capabilities in Bridge to improve communication across Medallia SDKs.

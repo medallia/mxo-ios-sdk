@@ -11,7 +11,7 @@
 
 Pod::Spec.new do |s|
   s.name                = "medallia-mxo-ios-sdk"
-  s.version             = "3.2.0"
+  s.version             = "4.0.0"
   s.summary             = "The MedalliaMXO SDK for iOS."
   s.authors             = { "Medallia" => "cocoapods-mxo@medallia.com" }
   s.homepage            = "https://github.com/medallia/mxo-ios-sdk"
@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
     core.vendored_frameworks = 'MedalliaMXO.embeddedframework/MedalliaMXO.xcframework'
     core.resources           = 'MedalliaMXO.embeddedframework/MedalliaMXOBundle.bundle'
   end
-  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.0'
+  s.dependency 'medallia-mobile-bridge-ios-sdk', '~> 1.3.1'
 end

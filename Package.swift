@@ -23,7 +23,7 @@ let package = Package(
         .package(
             name: "medallia-mobile-bridge-ios-sdk",
             url: "https://github.com/medallia/mobile-ios-bridge-sdk.git",
-            .upToNextMajor(from: "1.0.0")
+            .upToNextMajor(from: "1.3.1")
         )
     ],
     targets: [
